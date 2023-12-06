@@ -5,7 +5,7 @@ import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import store.data.Playlist;
-import store.data.StoreUsers;
+import store.data.StoreNormalUsers;
 import store.data.UserSelected;
 
 public class SelectOutput extends Output {
@@ -28,7 +28,7 @@ public class SelectOutput extends Output {
      * @param user user that selects
      * @param index index of selected item
      */
-    public void doSelect(final StoreUsers user, final int index) {
+    public void doSelect(final StoreNormalUsers user, final int index) {
         if (user.getLastSearch() != null) {
             if (index < user.getLastSearch().getResults().size()) {
                 UserSelected userSelection = new UserSelected();

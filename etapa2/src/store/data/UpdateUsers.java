@@ -3,16 +3,16 @@ package store.data;
 import java.util.List;
 
 public class UpdateUsers {
-    private List<StoreUsers> usersList;
-    public UpdateUsers(final List<StoreUsers> usersList) {
+    private List<StoreNormalUsers> usersList;
+    public UpdateUsers(final List<StoreNormalUsers> usersList) {
         this.usersList = usersList;
     }
 
-    public final List<StoreUsers> getUsersList() {
+    public final List<StoreNormalUsers> getUsersList() {
         return usersList;
     }
 
-    public final void setUsersList(final List<StoreUsers> usersList) {
+    public final void setUsersList(final List<StoreNormalUsers> usersList) {
         this.usersList = usersList;
     }
 

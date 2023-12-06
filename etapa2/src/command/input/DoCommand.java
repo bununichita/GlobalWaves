@@ -3,9 +3,7 @@ package command.input;
 import audio.source.SourcePlaylist;
 import fileio.input.LibraryInput;
 import output.*;
-import store.data.Playlist;
-import store.data.SongsByLikes;
-import store.data.StoreUsers;
+import store.data.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,7 +55,7 @@ public class DoCommand {
 //        if (currUser == null) {
 //            return;
 //        }
-        newSelectNode.doSelect(currUser, ((SelectCommand) currCommand).getItemNumber() - 1);
+        newSelectNode.doSelect((StoreNormalUsers) currUser, ((SelectCommand) currCommand).getItemNumber() - 1);
         outputList.add(newSelectNode);
         currUser.setUserLastOutput(newSelectNode);
         currUser.setTimestamp(currCommand.getTimestamp());
@@ -127,8 +125,9 @@ public class DoCommand {
     private Object getOnlineUsers(List<StoreUsers> users) {
         List<String> usersOnlineName = new ArrayList<>();
         for (StoreUsers currUser: users) {
-            if (!currUser.isStatusOffline()) {
-                usersOnlineName.add(currUser.getUsername());
+            String userToAdd = currUser.retUserNormalOnline();
+            if (userToAdd != null) {
+                usersOnlineName.add(currUser.retUserNormalOnline());
             }
         }
         return usersOnlineName;
@@ -149,7 +148,7 @@ public class DoCommand {
         aux.initSongByLikeList(allSongsByLikes, library.getSongs());
         List<Output> ignoredOuts = new ArrayList<>();
         for (Command currCommand : commands) {
-            StoreUsers currUser = new StoreUsers();
+            StoreUsers currUser = new StoreNormalUsers();
             currUser = currUser.findUserByName(currCommand.getUsername(), users);
             if (currCommand.getCommand().equals("getOnlineUsers")) {
                 int hello = 777;
@@ -306,7 +305,12 @@ public class DoCommand {
                         break;
                     case "getOnlineUsers":
                         currCommand.setResult(getOnlineUsers(users));
-                        outputList.add((UserOutput) currCommand.getOutput());
+                        outputList.add(currCommand.getOutput());
+                        break;
+                    case "addUser":
+                        StoreAdmin admin = new StoreAdmin();
+                        currCommand.setOutputMessage(admin.addUser(currCommand, users));
+                        outputList.add(currCommand.getOutput());
                         break;
                     default:
                         break;

@@ -19,7 +19,7 @@ public class InitUserList {
      */
     public List<StoreUsers> init(final ArrayList<UserInput> libraryUsers) {
         for (UserInput currLibraryUser : libraryUsers) {
-            StoreUsers newUser = new StoreUsers();
+            StoreNormalUsers newUser = new StoreNormalUsers();
             newUser.setUsername(currLibraryUser.getUsername());
             newUser.setAge(currLibraryUser.getAge());
             newUser.setCity(currLibraryUser.getCity());

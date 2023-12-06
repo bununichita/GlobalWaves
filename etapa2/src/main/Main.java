@@ -13,6 +13,7 @@ import command.input.ParseCommand;
 import fileio.input.LibraryInput;
 import output.Output;
 import store.data.InitUserList;
+import store.data.StoreNormalUsers;
 import store.data.StoreUsers;
 
 import java.io.File;

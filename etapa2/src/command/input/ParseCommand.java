@@ -109,6 +109,9 @@ public class ParseCommand {
                 case "getOnlineUsers":
                     parsedCommands.add(new UserCommand(nonParsedCommand));
                     break;
+                case "addUser":
+                    parsedCommands.add(new AdminCommand(nonParsedCommand));
+                    break;
                 default:
                     break;
             }

@@ -10,162 +10,140 @@ import fileio.input.SongInput;
 import output.Output;
 import output.SearchOutput;
 import output.Stats;
-import output.UserOutput;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class StoreUsers {
-    private String username;
-    private int age;
-    private String city;
-    private int timestamp;
-
-    private List<Playlist> userPlaylistList = new ArrayList<>();
-    private Command userLastCommand;
-
-    private Output userLastOutput;
-    private UserSelected lastUserSelection;
-    private SearchOutput lastSearch;
-    private String lastSearchType;
-    private SourceAudio userAudioSource;
-    private List<SongInput> likedSongs = new ArrayList<>();
-    private List<SourcePodcast> previousListenedPodcasts = new ArrayList<>();
-    private List<Playlist> followedPlaylists = new ArrayList<>();
-    private final int forwardBackwardTime = 90;
-    private boolean statusOffline;
-    private boolean isPausedOffline;
-
-    public boolean getIsPausedOffline() {
-        return isPausedOffline;
-    }
-
-    public void setIsPausedOffline(final boolean isPausedOffline) {
-        this.isPausedOffline = isPausedOffline;
-    }
+public abstract class StoreUsers {
+    protected String username;
+    protected int age;
+    protected String city;
 
     public StoreUsers() {
     }
 
-    public final String getUsername() {
+    public boolean getIsPausedOffline() {
+        return false;
+    }
+
+    public void setIsPausedOffline(final boolean isPausedOffline) {
+    }
+
+    public String getUsername() {
         return username;
     }
 
-    public final void setUsername(final String username) {
+    public void setUsername(final String username) {
         this.username = username;
     }
 
-    public final int getAge() {
+    public int getAge() {
         return age;
     }
 
-    public final void setAge(final int age) {
+    public void setAge(final int age) {
         this.age = age;
     }
 
-    public final String getCity() {
+    public String getCity() {
         return city;
     }
 
-    public final void setCity(final String city) {
+    public void setCity(final String city) {
         this.city = city;
     }
 
-    public final int getTimestamp() {
-        return timestamp;
+    public int getTimestamp() {
+        return -1;
     }
 
-    public final void setTimestamp(final int timestamp) {
-        this.timestamp = timestamp;
+    public void setTimestamp(final int timestamp) {
+
     }
 
-    public final List<Playlist> getUserPlaylistList() {
-        return userPlaylistList;
+    public List<Playlist> getUserPlaylistList() {
+        return null;
     }
 
-    public final void setUserPlaylistList(final List<Playlist> userPlaylistList) {
-        this.userPlaylistList = userPlaylistList;
+    public void setUserPlaylistList(final List<Playlist> userPlaylistList) {
     }
 
-    public final Command getUserLastCommand() {
-        return userLastCommand;
+    public Command getUserLastCommand() {
+        return null;
     }
 
-    public final void setUserLastCommand(final Command userLastCommand) {
-        this.userLastCommand = userLastCommand;
+    public void setUserLastCommand(final Command userLastCommand) {
+
     }
 
-    public final Output getUserLastOutput() {
-        return userLastOutput;
+    public Output getUserLastOutput() {
+        return null;
     }
 
-    public final void setUserLastOutput(final Output userLastOutput) {
-        this.userLastOutput = userLastOutput;
+    public void setUserLastOutput(final Output userLastOutput) {
+
     }
 
-    public final UserSelected getLastUserSelection() {
-        return lastUserSelection;
+    public UserSelected getLastUserSelection() {
+        return null;
     }
 
-    public final void setLastUserSelection(final UserSelected lastUserSelection) {
-        this.lastUserSelection = lastUserSelection;
+    public void setLastUserSelection(final UserSelected lastUserSelection) {
     }
 
-    public final SearchOutput getLastSearch() {
-        return lastSearch;
+    public SearchOutput getLastSearch() {
+        return null;
     }
 
-    public final void setLastSearch(final SearchOutput lastSearch) {
-        this.lastSearch = lastSearch;
+    public void setLastSearch(final SearchOutput lastSearch) {
+
     }
 
-    public final String getLastSearchType() {
-        return lastSearchType;
+    public String getLastSearchType() {
+        return null;
     }
 
-    public final void setLastSearchType(final String lastSearchType) {
-        this.lastSearchType = lastSearchType;
+    public void setLastSearchType(final String lastSearchType) {
+
     }
 
-    public final SourceAudio getUserAudioSource() {
-        return userAudioSource;
+    public SourceAudio getUserAudioSource() {
+        return null;
     }
 
-    public final void setUserAudioSource(final SourceAudio userAudioSource) {
-        this.userAudioSource = userAudioSource;
+    public void setUserAudioSource(final SourceAudio userAudioSource) {
+
     }
 
-    public final List<SongInput> getLikedSongs() {
-        return likedSongs;
+    public List<SongInput> getLikedSongs() {
+        return null;
     }
 
-    public final void setLikedSongs(final List<SongInput> likedSongs) {
-        this.likedSongs = likedSongs;
+    public void setLikedSongs(final List<SongInput> likedSongs) {
+
     }
 
-    public final List<SourcePodcast> getPreviousListenedPodcasts() {
-        return previousListenedPodcasts;
+    public List<SourcePodcast> getPreviousListenedPodcasts() {
+        return null;
     }
 
-    public final void setPreviousListenedPodcasts(
+    public void setPreviousListenedPodcasts(
             final List<SourcePodcast> previousListenedPodcasts) {
-        this.previousListenedPodcasts = previousListenedPodcasts;
     }
 
-    public final List<Playlist> getFollowedPlaylists() {
-        return followedPlaylists;
+    public List<Playlist> getFollowedPlaylists() {
+        return null;
     }
 
-    public final void setFollowedPlaylists(final List<Playlist> followedPlaylists) {
-        this.followedPlaylists = followedPlaylists;
+    public void setFollowedPlaylists(final List<Playlist> followedPlaylists) {
     }
 
     public boolean isStatusOffline() {
-        return statusOffline;
+        return false;
     }
 
     public void setStatusOffline(final boolean statusOffline) {
-        this.statusOffline = statusOffline;
+
     }
 
     /**
@@ -188,61 +166,6 @@ public class StoreUsers {
      * @param command current command
      */
     public void updateAudioSource(final Command command) {
-        if (userAudioSource != null) {
-            timestamp = command.getTimestamp();
-            userAudioSource.updateTotalPlayed(command.getTimestamp());
-            userAudioSource.setLastTimestamp(command.getTimestamp());
-            if (userAudioSource.getAudioType().equals("song")) {
-                SourceSong songSource = (SourceSong) userAudioSource;
-                if (songSource.getRepeat().equals("Repeat Once")) {
-                    if (songSource.getCurrentSong().getDuration() <= songSource.getTotalPlayed()) {
-                        int newTotalPlayed = songSource.getTotalPlayed()
-                                - songSource.getCurrentSong().getDuration();
-                        songSource.setTotalPlayed(newTotalPlayed);
-                        songSource.setRepeat("No Repeat");
-                    }
-                } else if (songSource.getRepeat().equals("Repeat Infinite")) {
-                    if (songSource.getCurrentSong().getDuration() <= songSource.getTotalPlayed()) {
-                        int newTotalPlayed = songSource.getTotalPlayed()
-                                % songSource.getCurrentSong().getDuration();
-                        songSource.setTotalPlayed(newTotalPlayed);
-                    }
-                }
-            } else if (userAudioSource.getAudioType().equals("playlist")) {
-                SourcePlaylist playlistSource = (SourcePlaylist) userAudioSource;
-                if (playlistSource.getRepeat().equals("Repeat All")) {
-                    if (playlistSource.getCurrentPlaylist().getDuration()
-                            <= playlistSource.getTotalPlayed()) {
-                        int newTotalPlayed = playlistSource.getTotalPlayed()
-                                % playlistSource.getCurrentPlaylist().getDuration();
-                        playlistSource.setTotalPlayed(newTotalPlayed);
-                    }
-                } else if (playlistSource.getRepeat().equals("Repeat Current Song")) {
-                    int startRepeatedSong = playlistSource.getStartRepeatedSong();
-                    int indexRepeatedSong = playlistSource.getIndexRepeatedSong();
-                    int totalPlayed = playlistSource.getTotalPlayed();
-                    int repeatedSongDuration = playlistSource.getCurrentPlaylist().
-                            getSongList().get(indexRepeatedSong).getDuration();
-                    totalPlayed = totalPlayed - startRepeatedSong;
-                    totalPlayed = totalPlayed % repeatedSongDuration;
-                    totalPlayed = startRepeatedSong + totalPlayed;
-                    playlistSource.setTotalPlayed(totalPlayed);
-                } else {
-                    if (playlistSource.getTotalPlayed()
-                            >= playlistSource.getCurrentPlaylist().getDuration()) {
-                        userAudioSource = null;
-                    }
-                }
-
-            }
-        }
-        if (command.getCommand().equals("search")) {
-            if (userAudioSource != null) {
-                if (!userAudioSource.isPaused()) {
-                    userAudioSource.changePlayPause(command);
-                }
-            }
-        }
 
     }
 
@@ -250,11 +173,6 @@ public class StoreUsers {
      * Stores the current status of the podcast, for future listening
      */
     public void storePreviousSource() {
-        if (userAudioSource != null) {
-            if (userAudioSource.getAudioType().equals("podcast")) {
-                previousListenedPodcasts.add((SourcePodcast) userAudioSource);
-            }
-        }
 
     }
 
@@ -264,11 +182,7 @@ public class StoreUsers {
      * @return the state of previously listened podcast
      */
     public SourcePodcast verifyPreviouslyListened(final String podcastName) {
-        for (SourcePodcast currentAudioSource : previousListenedPodcasts) {
-            if (currentAudioSource.getCurrentPodcast().getName().equals(podcastName)) {
-                return currentAudioSource;
-            }
-        }
+
         return null;
     }
 
@@ -278,63 +192,7 @@ public class StoreUsers {
      * @return output message for Load command
      */
     public String userLoad(final LoadCommand command) {
-        this.setUserLastCommand(command);
-        this.timestamp = command.getTimestamp();
-        String message;
-        if (this.lastUserSelection != null) {
-            switch (this.lastUserSelection.getType()) {
-                case "song":
-                    SourceSong newSongSource = new SourceSong();
-                    newSongSource.setAudioType("song");
-                    newSongSource.setLastTimestamp(this.timestamp);
-                    newSongSource.setPaused(false);
-                    newSongSource.setTotalPlayed(0);
-                    SongInput currSong = this.lastUserSelection.getSelectedSong();
-                    newSongSource.setCurrentSong(currSong);
-                    newSongSource.setStartTimestamp(command.getTimestamp());
-                    setUserAudioSource(newSongSource);
-                    message = "Playback loaded successfully.";
-                    break;
-                case "podcast":
-                    SourcePodcast previouslyListened;
-                    previouslyListened = verifyPreviouslyListened(lastUserSelection.
-                            getSelectedPodcast().getName());
-                    if (previouslyListened != null) {
-                        setUserAudioSource(previouslyListened);
-                        userAudioSource.setLastTimestamp(command.getTimestamp());
-                        userAudioSource.changePlayPause(command);
-                        previousListenedPodcasts.remove(previouslyListened);
-                    } else {
-                        SourcePodcast newPodcastSource = new SourcePodcast();
-                        newPodcastSource.setAudioType("podcast");
-                        newPodcastSource.setLastTimestamp(this.timestamp);
-                        newPodcastSource.setPaused(false);
-                        newPodcastSource.setTotalPlayed(0);
-                        PodcastInput currPodcast = this.lastUserSelection.getSelectedPodcast();
-                        newPodcastSource.setCurrentPodcast(currPodcast);
-                        setUserAudioSource(newPodcastSource);
-                    }
-                    message = "Playback loaded successfully.";
-                    break;
-                case "playlist":
-                    SourcePlaylist newPlaylistSource = new SourcePlaylist();
-                    newPlaylistSource.setAudioType("playlist");
-                    newPlaylistSource.setLastTimestamp(this.timestamp);
-                    newPlaylistSource.setPaused(false);
-                    newPlaylistSource.setTotalPlayed(0);
-                    Playlist currPlaylist = this.lastUserSelection.getSelectedPlaylist();
-                    newPlaylistSource.setCurrentPlaylist(currPlaylist);
-                    setUserAudioSource(newPlaylistSource);
-                    message = "Playback loaded successfully.";
-                    break;
-                default:
-                    message = "";
-            }
-
-        } else {
-            message = "Please select a source before attempting to load.";
-        }
-        return message;
+        return null;
     }
 
     /**
@@ -343,88 +201,7 @@ public class StoreUsers {
      * @return the stats for the current audio source
      */
     public Stats userStatus(final StatusCommand command) {
-        this.setUserLastCommand(command);
-        this.timestamp = command.getTimestamp();
-        Stats newAudioStats = new Stats();
-        int audioRemainedTime;
-        String audioRepeat;
-        boolean audioPaused;
-        String audioName;
-        if (this.userAudioSource != null) {
-            switch (this.userAudioSource.getAudioType()) {
-                case "song":
-                    audioRemainedTime = ((SourceSong) this.userAudioSource).
-                            updateSongSource(this.timestamp);
-                    newAudioStats.setRemainedTime(audioRemainedTime);
-                    if (audioRemainedTime == 0) {
-                        audioName = "";
-                    } else {
-                        audioName = ((SourceSong) this.userAudioSource).getCurrentSong().getName();
-                    }
-                    newAudioStats.setName(audioName);
-                    audioRepeat = ((SourceSong) this.userAudioSource).getRepeat();
-                    newAudioStats.setRepeat(audioRepeat);
-                    newAudioStats.setShuffle(false);
-                    audioPaused = ((SourceSong) this.userAudioSource).isPaused();
-                    if (isStatusOffline()) {
-                        newAudioStats.setPaused(isPausedOffline);
-                    } else {
-                        newAudioStats.setPaused(audioPaused);
-                    }
-
-                    break;
-                case "podcast":
-                    audioRemainedTime = ((SourcePodcast) this.userAudioSource).
-                            updatePodcastSource(this.timestamp);
-                    if (audioRemainedTime == 0) {
-                        audioName = "";
-                    } else {
-                        audioName = ((SourcePodcast) this.userAudioSource).
-                                getCurrentEpisode(userAudioSource.getTotalPlayed());
-                    }
-                    audioRemainedTime = ((SourcePodcast) this.userAudioSource).
-                            getEpisodeRemainingTime(audioName);
-                    newAudioStats.setRemainedTime(audioRemainedTime);
-                    newAudioStats.setName(audioName);
-                    audioRepeat = ((SourcePodcast) this.userAudioSource).getRepeat();
-                    newAudioStats.setRepeat(audioRepeat);
-                    newAudioStats.setShuffle(false);
-                    audioPaused = ((SourcePodcast) this.userAudioSource).isPaused();
-                    if (isStatusOffline()) {
-                        newAudioStats.setPaused(isPausedOffline);
-                    } else {
-                        newAudioStats.setPaused(audioPaused);
-                    }
-                    break;
-                case "playlist":
-                    audioRemainedTime = ((SourcePlaylist) this.userAudioSource).
-                            updatePlaylistSource(this.timestamp);
-                    if (audioRemainedTime == 0) {
-                        audioName = "";
-                    } else {
-                        audioName = ((SourcePlaylist) this.userAudioSource).getCurrentSong();
-
-                    }
-                    audioRemainedTime = ((SourcePlaylist) this.userAudioSource).
-                            getSongRemainingTime(audioName);
-                    newAudioStats.setRemainedTime(audioRemainedTime);
-                    newAudioStats.setName(audioName);
-                    audioRepeat = ((SourcePlaylist) this.userAudioSource).getRepeat();
-                    newAudioStats.setRepeat(audioRepeat);
-                    newAudioStats.setShuffle(((SourcePlaylist) this.userAudioSource).
-                            getIsShuffle());
-                    audioPaused = ((SourcePlaylist) this.userAudioSource).isPaused();
-                    if (isStatusOffline()) {
-                        newAudioStats.setPaused(isPausedOffline);
-                    } else {
-                        newAudioStats.setPaused(audioPaused);
-                    }
-                    break;
-                default:
-                    return null;
-            }
-        }
-        return newAudioStats;
+        return null;
     }
 
     /**
@@ -433,11 +210,7 @@ public class StoreUsers {
      * @return output message for the Like command
      */
     public String userPlayPause(final Command command) {
-        if (this.userAudioSource != null) {
-            return this.userAudioSource.changePlayPause(command);
-        } else {
-            return "Please load a source before attempting to pause or resume playback.";
-        }
+        return username + " is not a normal user.";
 
     }
 
@@ -446,7 +219,6 @@ public class StoreUsers {
      * @param localTimestamp current timestamp
      */
     public void updateTimestamp(final int localTimestamp) {
-        this.timestamp = localTimestamp;
     }
 
     /**
@@ -457,17 +229,7 @@ public class StoreUsers {
      */
     public String createPlaylist(final PlaylistCommand command,
                                  final List<Playlist> allPlaylist) {
-        for (Playlist currPlaylist : userPlaylistList) {
-            if (currPlaylist.getName().equals(command.getPlaylistName())) {
-                return "A playlist with the same name already exists.";
-            }
-        }
-        Playlist newPlaylist = new Playlist();
-        newPlaylist.setName(command.getPlaylistName());
-        newPlaylist.setOwner(this.getUsername());
-        userPlaylistList.add(newPlaylist);
-        allPlaylist.add(newPlaylist);
-        return "Playlist created successfully.";
+        return username + " is not a normal user.";
     }
 
     /**
@@ -478,38 +240,7 @@ public class StoreUsers {
      */
     public String addRemoveInPlaylist(final PlaylistCommand command,
                                       final List<Playlist> allPlaylist) {
-        String message;
-        if (this.userAudioSource != null) {
-            if (this.userAudioSource.getAudioType().equals("song")) {
-                if (command.getPlaylistId() - 1 < this.userPlaylistList.size()) {
-                    int id = command.getPlaylistId() - 1;
-                    Playlist selectedPlaylist = this.userPlaylistList.get(id);
-                    if (selectedPlaylist.
-                            getSongList().contains(((SourceSong) this.userAudioSource).
-                                    getCurrentSong())) {
-                        selectedPlaylist.getSongList().
-                                remove(((SourceSong) this.userAudioSource).
-                                        getCurrentSong());
-                        selectedPlaylist.getSongs().remove(((SourceSong) this.userAudioSource).
-                                getCurrentSong().getName());
-                        message = "Successfully removed from playlist.";
-                    } else {
-                        selectedPlaylist.getSongList().add(((SourceSong) this.userAudioSource).
-                                getCurrentSong());
-                        selectedPlaylist.getSongs().add(((SourceSong) this.userAudioSource).
-                                getCurrentSong().getName());
-                        message = "Successfully added to playlist.";
-                    }
-                } else {
-                    message = "The specified playlist does not exist.";
-                }
-            } else {
-                message = "The loaded source is not a song.";
-            }
-        } else {
-            message = "Please load a source before adding to or removing from the playlist.";
-        }
-        return message;
+        return username + " is not a normal user.";
     }
 
     /**
@@ -520,57 +251,7 @@ public class StoreUsers {
      */
     public String userLikeUnlike(final PlaylistCommand command,
                                  final List<SongsByLikes> globalLikedSongs) {
-        String message;
-        if (this.userAudioSource != null) {
-            if (this.userAudioSource.getAudioType().equals("song")) {
-                if (this.likedSongs.contains(((SourceSong) this.userAudioSource).
-                        getCurrentSong())) {
-                    this.likedSongs.remove(((SourceSong) this.userAudioSource).getCurrentSong());
-                    for (SongsByLikes currSong : globalLikedSongs) {
-                        if (currSong.getSong().equals(((SourceSong) this.userAudioSource).
-                                getCurrentSong())) {
-                            currSong.setLikeCount(currSong.getLikeCount() - 1);
-                        }
-                    }
-                    message = "Unlike registered successfully.";
-                } else {
-                    this.likedSongs.add(((SourceSong) this.userAudioSource).getCurrentSong());
-                    for (SongsByLikes currSong : globalLikedSongs) {
-                        if (currSong.getSong().equals(((SourceSong) this.userAudioSource).
-                                getCurrentSong())) {
-                            currSong.setLikeCount(currSong.getLikeCount() + 1);
-                        }
-                    }
-                    message = "Like registered successfully.";
-                }
-            } else if (this.userAudioSource.getAudioType().equals("playlist")) {
-                SongInput currentlyPlayedSong = ((SourcePlaylist) userAudioSource).
-                        getSongFromPlaylist(command.getTimestamp());
-                if (likedSongs.contains(currentlyPlayedSong)) {
-                    likedSongs.remove(currentlyPlayedSong);
-                    for (SongsByLikes currSong : globalLikedSongs) {
-                        if (currSong.getSong().equals(currentlyPlayedSong)) {
-                            currSong.setLikeCount(currSong.getLikeCount() - 1);
-                        }
-                    }
-                    message = "Unlike registered successfully.";
-                } else {
-                    likedSongs.add(currentlyPlayedSong);
-                    for (SongsByLikes currSong : globalLikedSongs) {
-                        if (currSong.getSong().equals(currentlyPlayedSong)) {
-                            currSong.setLikeCount(currSong.getLikeCount() + 1);
-                        }
-                    }
-                    message = "Like registered successfully.";
-                }
-
-            } else {
-                message = "Loaded source is not a song.";
-            }
-        } else {
-            message = "Please load a source before liking or unliking.";
-        }
-        return message;
+        return username + " is not a normal user.";
     }
 
     /**
@@ -578,15 +259,7 @@ public class StoreUsers {
      * @return the list of user liked songs
      */
     public List<String> userShowLikedSongs() {
-        List<String> likedSongsName = new ArrayList<>();
-
-        for (SongInput currSong : likedSongs) {
-            if (currSong != null) {
-                likedSongsName.add(currSong.getName());
-            }
-
-        }
-        return likedSongsName;
+        return null;
     }
 
     /**
@@ -595,11 +268,6 @@ public class StoreUsers {
      * @return the playlist with the searched name
      */
     public Playlist findPlaylistByName(final String name) {
-        for (Playlist currPlaylist : DoCommand.getAllPlaylists()) {
-            if (currPlaylist.getName().equals(name)) {
-                return currPlaylist;
-            }
-        }
         return null;
     }
 
@@ -608,12 +276,7 @@ public class StoreUsers {
      * @return output message for Repeat command
      */
     public String userRepeat() {
-        if (userAudioSource != null) {
-            return userAudioSource.changeRepeat();
-        } else {
-            return "Please load a source before setting the repeat status.";
-        }
-
+        return username + " is not a normal user.";
     }
     /**
      * Method that shuffles the current playlist and stores the non-shuffled version
@@ -621,17 +284,7 @@ public class StoreUsers {
      */
     public String userShuffle(final int seed) {
 
-        if (userAudioSource != null) {
-            if (userAudioSource.getAudioType().equals("playlist")) {
-                SourcePlaylist playlistSource = (SourcePlaylist) userAudioSource;
-                String message = playlistSource.doShuffle(seed);
-                return message;
-            } else {
-                return "The loaded source is not a playlist.";
-            }
-        } else {
-            return "Please load a source before using the shuffle function.";
-        }
+        return username + " is not a normal user.";
     }
 
     /**
@@ -639,107 +292,14 @@ public class StoreUsers {
      * @return the output message for the Next command
      */
     public String userNext() {
-        if (userAudioSource != null) {
-            if (userAudioSource.getAudioType().equals("playlist")) {
-                SourcePlaylist playlistSource = (SourcePlaylist) userAudioSource;
-                if (playlistSource.getPlaylistSize()
-                        - playlistSource.getCurrentSongIndex() >= 2) {
-                    String currSongName = playlistSource.getCurrentSong();
-                    int remainingCurrSongTime =
-                            playlistSource.getSongRemainingTime(currSongName);
-                    playlistSource.setTotalPlayed(playlistSource.getTotalPlayed()
-                            + remainingCurrSongTime);
-                    String newCurrSongName = playlistSource.getCurrentSong();
-                    playlistSource.setPaused(false);
-                    if (playlistSource.getRepeat().equals("Repeat Current Song")) {
-                        return "Skipped to next track successfully. The current track is "
-                                + currSongName + ".";
-                    }
-                    return "Skipped to next track successfully. The current track is "
-                            + newCurrSongName + ".";
-                } else {
-                    String currSongName;
-                    if (playlistSource.getRepeat().equals("Repeat All")) {
-                        playlistSource.setTotalPlayed(0);
-                        currSongName = playlistSource.getCurrentSong();
-                        return "Skipped to next track successfully. The current track is "
-                                + currSongName + ".";
-                    } else if (playlistSource.getRepeat().equals("Repeat Current Song")) {
-                        currSongName = playlistSource.getCurrentSong();
-                        int newTotalPlayed = playlistSource.getStartRepeatedSong();
-                        playlistSource.setTotalPlayed(newTotalPlayed);
-                        return "Skipped to next track successfully. The current track is "
-                                + currSongName + ".";
-                    }
-                    playlistSource.setTotalPlayed(playlistSource.getCurrentPlaylist().
-                            getDuration());
-                    return "Please load a source before skipping to the next track.";
-                }
-            } else if (userAudioSource.getAudioType().equals("podcast")) {
-                SourcePodcast podcastSource = (SourcePodcast) userAudioSource;
-                if (podcastSource.getPodcastSize()
-                        - podcastSource.getCurrentEpisodeIndex() >= 2) {
-                    String currEpisodeName = podcastSource.getCurrentEpisode();
-                    int remainingCurrEpisodeTime = podcastSource.getEpisodeRemainingTime();
-                    podcastSource.setTotalPlayed(podcastSource.getTotalPlayed()
-                            + remainingCurrEpisodeTime);
-                    currEpisodeName = podcastSource.getCurrentEpisode();
-                    return "Skipped to next track successfully. The current track is "
-                            + currEpisodeName + ".";
-                } else {
-                    return "Please load a source before skipping to the next track.";
-                }
-            }
-        } else {
-            return "Please load a source before skipping to the next track.";
-        }
-        return null;
+        return username + " is not a normal user.";
     }
     /**
      * Changes the audio source of the user to previous song / episode
      * @return the output message for the Prev command
      */
     public String userPrev() {
-        if (userAudioSource != null) {
-            if (userAudioSource.getAudioType().equals("playlist")) {
-                SourcePlaylist playlistSource = (SourcePlaylist) userAudioSource;
-                SongInput currSong = playlistSource.getSongFromPlaylist(timestamp);
-                String currSongName = playlistSource.getCurrentSong();
-                int remainingCurrSongTime = playlistSource.getSongRemainingTime(currSongName);
-                if (currSong.getDuration() == remainingCurrSongTime) {
-                    if (playlistSource.getCurrentSongIndex() >= 1) {
-                        int newIndex = playlistSource.getCurrentSongIndex() - 1;
-                        int newTotalPlayed = playlistSource.getTotalPlayed();
-                        newTotalPlayed -= playlistSource.getCurrentPlaylist().
-                                getSongList().get(newIndex).getDuration();
-                        playlistSource.setTotalPlayed(newTotalPlayed);
-                        currSongName = playlistSource.getCurrentSong();
-                        playlistSource.setPaused(false);
-                        return "Returned to previous track successfully. The current track is "
-                                + currSongName + ".";
-                    } else {
-                        playlistSource.setTotalPlayed(0);
-                        currSongName = playlistSource.getCurrentSong();
-                        playlistSource.setPaused(false);
-                        return "Returned to previous track successfully. The current track is "
-                                + currSongName + ".";
-                    }
-                } else {
-                    int remainingSongTime = playlistSource.getSongRemainingTime(currSongName);
-                    int newTotalPlayed = playlistSource.getTotalPlayed();
-                    newTotalPlayed += remainingSongTime;
-                    newTotalPlayed -= currSong.getDuration();
-                    playlistSource.setTotalPlayed(newTotalPlayed);
-                    currSongName = playlistSource.getCurrentSong();
-                    playlistSource.setPaused(false);
-                    return "Returned to previous track successfully. The current track is "
-                            + currSongName + ".";
-                }
-            }
-        } else {
-            return "Please load a source before returning to the previous track.";
-        }
-        return null;
+        return username + " is not a normal user.";
     }
 
     /**
@@ -747,49 +307,14 @@ public class StoreUsers {
      * @return output message for the Forward command
      */
     public String userForward() {
-        if (userAudioSource != null) {
-            if (userAudioSource.getAudioType().equals("podcast")) {
-                SourcePodcast podcastSource = (SourcePodcast) userAudioSource;
-                int remainingTimeCurrentEpisode = podcastSource.getEpisodeRemainingTime();
-
-                if (remainingTimeCurrentEpisode < forwardBackwardTime) {
-                    podcastSource.setTotalPlayed(podcastSource.getTotalPlayed()
-                            + remainingTimeCurrentEpisode);
-                } else {
-                    podcastSource.setTotalPlayed(podcastSource.getTotalPlayed()
-                            + forwardBackwardTime);
-                }
-                return "Skipped forward successfully.";
-            } else {
-                return "The loaded source is not a podcast.";
-            }
-        } else {
-            return "Please load a source before attempting to forward.";
-        }
+        return username + " is not a normal user.";
     }
     /**
      * Goes to the previous 90 seconds
      * @return output message for the Backward command
      */
     public String userBackward() {
-        if (userAudioSource != null) {
-            if (userAudioSource.getAudioType().equals("podcast")) {
-                SourcePodcast podcastSource = (SourcePodcast) userAudioSource;
-                int playedTimeCurrentEpisode = podcastSource.getCurrentEpisodePlayedTime();
-                if (playedTimeCurrentEpisode < forwardBackwardTime) {
-                    podcastSource.setTotalPlayed(podcastSource.getTotalPlayed()
-                            - playedTimeCurrentEpisode);
-                } else {
-                    podcastSource.setTotalPlayed(podcastSource.getTotalPlayed()
-                            - forwardBackwardTime);
-                }
-                return "Rewound successfully.";
-            } else {
-                return "The loaded source is not a podcast.";
-            }
-        } else {
-            return "Please select a source before rewinding.";
-        }
+        return username + " is not a normal user.";
     }
 
     /**
@@ -797,28 +322,7 @@ public class StoreUsers {
      * @return the output message for the Follow command
      */
     public String userFollow() {
-        if (lastUserSelection != null) {
-            if (lastUserSelection.getType().equals("playlist")) {
-                Playlist selectedPlaylist = lastUserSelection.getSelectedPlaylist();
-                if (selectedPlaylist.getOwner().equals(username)) {
-                    return "You cannot follow or unfollow your own playlist.";
-                } else {
-                    if (followedPlaylists.contains(selectedPlaylist)) {
-                        selectedPlaylist.setFollowers(selectedPlaylist.getFollowers() - 1);
-                        followedPlaylists.remove(selectedPlaylist);
-                        return "Playlist unfollowed successfully.";
-                    } else {
-                        selectedPlaylist.setFollowers(selectedPlaylist.getFollowers() + 1);
-                        followedPlaylists.add(selectedPlaylist);
-                        return "Playlist followed successfully.";
-                    }
-                }
-            } else {
-                return "The selected source is not a playlist.";
-            }
-        } else {
-            return "Please select a source before following or unfollowing.";
-        }
+        return username + " is not a normal user.";
     }
 
     /**
@@ -826,11 +330,7 @@ public class StoreUsers {
      * @return the current user playlist list
      */
     public List<Object> getCurrentUserPlaylistList() {
-        List<Object> currentUserPlaylistList = new ArrayList<>();
-        for (Playlist currPlaylist : userPlaylistList) {
-            currentUserPlaylistList.add(new Playlist(currPlaylist));
-        }
-        return currentUserPlaylistList;
+        return null;
     }
 
     /**
@@ -839,43 +339,16 @@ public class StoreUsers {
      * @return output message for the SwitchVisibility command
      */
     public String userSwitchVisibility(final int playlistId) {
-        int newPlaylistId = playlistId;
-        if (newPlaylistId > userPlaylistList.size()) {
-            return "The specified playlist ID is too high.";
-        } else {
-            newPlaylistId--;
-            Playlist selectedPlaylist = userPlaylistList.get(newPlaylistId);
-            if (selectedPlaylist.getVisibility().equals("private")) {
-                selectedPlaylist.setVisibility("public");
-                return "Visibility status updated successfully to public.";
-            } else {
-                selectedPlaylist.setVisibility("private");
-                return "Visibility status updated successfully to private.";
-            }
-
-        }
+        return username + " is not a normal user.";
     }
 
     public String userSwitchConStat(Command command) {
-        updateAudioSource(command);
-        updateTimestamp(command.getTimestamp());
-        if (statusOffline) {
-
-//            if (userAudioSource != null) {
-//                if (!userAudioSource.isPaused()) {
-//
-//                }
-//            }
-            statusOffline = false;
-        } else {
-            if (userAudioSource != null) {
-                isPausedOffline = userAudioSource.isPaused();
-                if (!userAudioSource.isPaused()) {
-                    userPlayPause(command);
-                }
-            }
-            statusOffline = true;
-        }
-        return username + " has changed status successfully.";
+        return username + " is not a normal user.";
+    }
+    public String retUserNormalOnline() {
+        return null;
+    }
+    public String addUser(Command command, List<StoreUsers> users) {
+    return null;
     }
 }

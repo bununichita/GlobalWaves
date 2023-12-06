@@ -6,7 +6,7 @@ import output.UserOutput;
 public class UserCommand extends Command {
 
 
-    UserOutput output;
+    private UserOutput output;
 
 
 
