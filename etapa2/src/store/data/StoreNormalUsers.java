@@ -36,6 +36,14 @@ public class StoreNormalUsers extends StoreUsers{
     private boolean isPausedOffline;
     private Page currentPage = new HomePage();
 
+    public Page getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(Page currentPage) {
+        this.currentPage = currentPage;
+    }
+
     public boolean getIsPausedOffline() {
         return isPausedOffline;
     }

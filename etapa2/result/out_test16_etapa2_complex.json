@@ -16405,13 +16405,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11770,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11770,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -16436,18 +16436,18 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -16457,23 +16457,23 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11790,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11790,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16498,13 +16498,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11800,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16529,18 +16529,18 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16550,23 +16550,23 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -16591,13 +16591,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -16622,18 +16622,18 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jsimpson" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jsimpson's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -16643,28 +16643,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16674,23 +16674,23 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11860,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11860,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -16715,18 +16715,18 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -16736,28 +16736,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -16767,23 +16767,23 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11890,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "charlesgarcia" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11890,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16808,13 +16808,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11900,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11900,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16839,18 +16839,18 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -16860,23 +16860,23 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -16901,18 +16901,18 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -16922,28 +16922,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "anthony22" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected anthony22's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -16953,28 +16953,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16984,23 +16984,23 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11960,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "charlesgarcia" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11960,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -17025,18 +17025,18 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -17046,28 +17046,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -17077,23 +17077,23 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11990,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11990,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -17118,18 +17118,18 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -17139,28 +17139,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -17170,28 +17170,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -17201,28 +17201,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -17232,28 +17232,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -17263,28 +17263,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -17294,28 +17294,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -17325,28 +17325,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -17356,28 +17356,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -17387,28 +17387,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jsimpson" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jsimpson's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -17418,28 +17418,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -17449,28 +17449,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -17480,28 +17480,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -17511,28 +17511,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -17542,28 +17542,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -17573,28 +17573,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -17604,28 +17604,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -17635,28 +17635,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -17666,28 +17666,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -17697,28 +17697,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -17728,28 +17728,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -17759,28 +17759,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -17790,28 +17790,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -17821,28 +17821,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -17852,28 +17852,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -17883,28 +17883,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -17914,28 +17914,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "anthony22" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected anthony22's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -17945,28 +17945,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "charlesgarcia" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -17976,28 +17976,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18007,28 +18007,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -18038,28 +18038,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18069,28 +18069,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -18100,28 +18100,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -18131,28 +18131,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18162,28 +18162,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18193,28 +18193,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18224,28 +18224,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18255,28 +18255,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18286,28 +18286,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18317,28 +18317,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -18348,28 +18348,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18379,28 +18379,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -18410,28 +18410,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18441,28 +18441,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -18472,28 +18472,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18503,28 +18503,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -18534,28 +18534,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18565,28 +18565,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -18596,28 +18596,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18627,28 +18627,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -18658,28 +18658,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -18689,28 +18689,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18720,28 +18720,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "charlesgarcia" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -18751,28 +18751,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18782,28 +18782,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18813,28 +18813,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18844,28 +18844,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18875,28 +18875,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18906,28 +18906,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -18937,28 +18937,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -18968,28 +18968,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18999,28 +18999,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -19030,28 +19030,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -19061,28 +19061,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -19092,28 +19092,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -19123,28 +19123,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19154,28 +19154,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19185,28 +19185,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19216,28 +19216,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19247,28 +19247,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19278,28 +19278,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19309,28 +19309,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19340,28 +19340,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "charlesgarcia" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -19371,28 +19371,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19402,28 +19402,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "charlesgarcia" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -19433,28 +19433,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19464,28 +19464,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -19495,28 +19495,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19526,28 +19526,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "anthony22" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected anthony22's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -19557,28 +19557,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn, Breezy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn, Breezy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19588,28 +19588,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19619,28 +19619,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19650,28 +19650,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19681,28 +19681,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19712,28 +19712,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19743,28 +19743,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19774,28 +19774,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19805,28 +19805,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19836,28 +19836,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19867,28 +19867,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -19898,28 +19898,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19929,28 +19929,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19960,28 +19960,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19991,28 +19991,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20022,28 +20022,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20053,28 +20053,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20084,28 +20084,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jsimpson" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jsimpson's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -20115,28 +20115,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View, Teen Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View, Teen Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -20146,28 +20146,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20177,28 +20177,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20208,28 +20208,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20239,28 +20239,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "charlesgarcia" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -20270,28 +20270,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20301,28 +20301,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -20332,28 +20332,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20363,28 +20363,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20394,28 +20394,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20425,28 +20425,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20456,28 +20456,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20487,28 +20487,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "bob35 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20518,28 +20518,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20549,28 +20549,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "david27 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20580,28 +20580,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20611,28 +20611,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "frank21 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20642,28 +20642,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20673,28 +20673,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "henry26 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20704,28 +20704,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "glester" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20735,28 +20735,28 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "matthewporter" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20766,28 +20766,28 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "alice22 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20797,28 +20797,28 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "john99" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20828,28 +20828,28 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
+  "message" : "carol19 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "mccarthyluis" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20859,28 +20859,28 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20890,28 +20890,28 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "emily30 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "jacobdean" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20921,28 +20921,28 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20952,28 +20952,28 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "grace25 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "amanda16" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected amanda16's page."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Groovy Hood, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
@@ -20983,28 +20983,28 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Groovy Hood, Teen Guide, Alone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Groovy Hood, Teen Guide, Alone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "barmstrong" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -21014,28 +21014,28 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "irene33 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "fwebb" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "The selected ID is too high."
+  "message" : "Selection error"
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -21045,12 +21045,12 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "jack29 is trying to access a non-existent page."
 }, {
   "command" : "search",
   "user" : "alice22",

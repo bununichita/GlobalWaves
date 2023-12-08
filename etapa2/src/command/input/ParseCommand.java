@@ -119,7 +119,13 @@ public class ParseCommand {
                     parsedCommands.add(new UserCommand(nonParsedCommand));
                     break;
                 case "printCurrentPage":
-                    parsedCommands.add((new UserCommand(nonParsedCommand)));
+                    parsedCommands.add(new UserCommand(nonParsedCommand));
+                    break;
+                case "addEvent":
+                    parsedCommands.add(new UserCommand(nonParsedCommand));
+                    break;
+                case "addMerch":
+                    parsedCommands.add(new UserCommand(nonParsedCommand));
                     break;
                 default:
                     break;

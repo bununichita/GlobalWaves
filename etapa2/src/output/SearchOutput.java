@@ -1,10 +1,12 @@
 package output;
 
+import command.input.DoCommand;
 import command.input.SearchCommand;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import store.data.Playlist;
+import store.data.StoreUsers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -153,7 +155,6 @@ public class SearchOutput extends Output {
                 podcastsFound++;
             }
             if (podcastsFound == maxNumber) {
-//                System.out.println(results.size());
                 return;
             }
         }
@@ -202,19 +203,39 @@ public class SearchOutput extends Output {
         }
 
     }
+    private void foundArtistName(final SearchCommand command) {
+        boolean validCandidate;
+        int artistsFound = 0;
+
+        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+            validCandidate = true;
+            if (command.getFilters().getName() != null) {
+                if (!currUser.getUsername().startsWith(command.getFilters().getName())) {
+                    validCandidate = false;
+                }
+            }
+            if (validCandidate) {
+                results.add(currUser.getUsername());
+                artistsFound++;
+            }
+        }
+
+    }
 
     /**
      * Decides the search type
      * @param command of type SearchCommand
      * @param allPlaylist global playlist list
      */
-    public void decideSongPodcast(final SearchCommand command, final List<Playlist> allPlaylist) {
+    public void decideSearchType(final SearchCommand command, final List<Playlist> allPlaylist) {
         if (command.getType().equals("song")) {
             foundSongName(command);
         } else if (command.getType().equals("podcast")) {
             foundPodcastName(command);
         } else if (command.getType().equals("playlist")) {
             foundPlaylistName(command, allPlaylist);
+        } else if (command.getType().equals("artist")) {
+            foundArtistName(command);
         }
     }
 

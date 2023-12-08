@@ -149,11 +149,11 @@ public abstract class StoreUsers {
     /**
      * Method searches the StoreUsers list to find the current user
      * @param localUsername name of the user
-     * @param usersList list of users
      * @return current user of type "storeUsers"
      */
-    public StoreUsers findUserByName(final String localUsername, final List<StoreUsers> usersList) {
-        for (StoreUsers currUser : usersList) {
+    public StoreUsers findUserByName(final String localUsername) {
+
+        for (StoreUsers currUser : DoCommand.getAllUsers()) {
             if (currUser.getUsername().equals(localUsername)) {
                 return currUser;
             }
@@ -354,10 +354,19 @@ public abstract class StoreUsers {
     public String addAlbum(Command command) {
         return this.username + " is not an artist.";
     }
-    public Object getAlbums() {
+    public List<Album> getAlbums() {
         return null;
     }
     public String printCurrentPage() {
         return this.username + " is trying to access a non-existent page.";
+    }
+    public String addEvent(Command command) {
+        return this.username + " is not an artist.";
+    }
+    public String addMerch(Command command) {
+        return this.username + " is not an artist.";
+    }
+    public StoreUsers getArtist() {
+        return null;
     }
 }

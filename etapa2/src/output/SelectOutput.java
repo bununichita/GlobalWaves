@@ -1,12 +1,12 @@
 package output;
 
 import command.input.Command;
+import command.input.DoCommand;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
-import store.data.Playlist;
-import store.data.StoreNormalUsers;
-import store.data.UserSelected;
+import store.data.*;
+import user.page.ArtistPage;
 
 public class SelectOutput extends Output {
     public SelectOutput() {
@@ -57,6 +57,20 @@ public class SelectOutput extends Output {
                     user.setLastUserSelection(userSelection);
                     super.message = "Successfully selected "
                             + user.getLastUserSelection().getSelectedPlaylist().getName() + ".";
+                } else if (user.getLastSearchType().equals("artist")) {
+                    String artistName = user.getLastSearch().getResults().get(index);
+                    StoreUsers selectedArtist = (user.findUserByName(artistName));
+                    if (selectedArtist.getArtist() != null) {
+                        userSelection.setType("artist");
+                        userSelection.setSelectedArtist((StoreArtist) selectedArtist);
+                        user.setLastUserSelection(userSelection);
+                        super.message = "Successfully selected " + artistName + "'s page.";
+                        ArtistPage artistPage = new ArtistPage();
+                        user.setCurrentPage(artistPage);
+                    } else {
+                        super.message = "Selection error";
+                    }
+
                 }
             } else {
                 super.message = "The selected ID is too high.";

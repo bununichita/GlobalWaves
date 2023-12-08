@@ -11,6 +11,7 @@ import java.util.List;
 public class DoCommand {
     private static List<Playlist> allPlaylists = new ArrayList<>();
     private static List<Album> allAlbums = new ArrayList<>();
+    private static List<StoreUsers> allUsers;
 
     public static List<Playlist> getAllPlaylists() {
         return allPlaylists;
@@ -26,6 +27,14 @@ public class DoCommand {
 
     public static void setAllAlbums(List<Album> allAlbums) {
         DoCommand.allAlbums = allAlbums;
+    }
+
+    public static List<StoreUsers> getAllUsers() {
+        return allUsers;
+    }
+
+    public static void setAllUsers(List<StoreUsers> allUsers) {
+        DoCommand.allUsers = allUsers;
     }
 
     private void doSearch(final StoreUsers currUser, final Command currCommand,
@@ -45,7 +54,7 @@ public class DoCommand {
         }
 
 
-        newSearchNode.decideSongPodcast((SearchCommand) currCommand, allPlaylists);
+        newSearchNode.decideSearchType((SearchCommand) currCommand, allPlaylists);
         newSearchNode.doMessage();
         outputList.add(newSearchNode);
 
@@ -150,6 +159,7 @@ public class DoCommand {
      */
     public void makeAllCommands(final List<Command> commands, final List<Output> outputList,
                                 final List<StoreUsers> users) {
+        allUsers = users;
         LibraryInput library = LibraryInput.getInstance();
         allPlaylists = new ArrayList<>();
         List<SongsByLikes> allSongsByLikes = new ArrayList<>();
@@ -158,7 +168,7 @@ public class DoCommand {
         List<Output> ignoredOuts = new ArrayList<>();
         for (Command currCommand : commands) {
             StoreUsers currUser = new StoreNormalUsers();
-            currUser = currUser.findUserByName(currCommand.getUsername(), users);
+            currUser = currUser.findUserByName(currCommand.getUsername());
             if (currCommand.getCommand().equals("getOnlineUsers")) {
                 int hello = 777;
             }
@@ -322,9 +332,9 @@ public class DoCommand {
                     outputList.add(currCommand.getOutput());
                     break;
                 case "addAlbum":
-                    if (currCommand.getTimestamp() == 560) {
-                        int csdc = 777;
-                    }
+//                    if (currCommand.getTimestamp() == 560) {
+//                        int csdc = 777;
+//                    }
                     currCommand.setOutputMessage(currUser.addAlbum(currCommand));
                     outputList.add(currCommand.getOutput());
                     break;
@@ -333,9 +343,31 @@ public class DoCommand {
                     outputList.add(currCommand.getOutput());
                     break;
                 case "printCurrentPage":
-                    currCommand.setOutputMessage(currUser.printCurrentPage());
+                    if (currUser.isStatusOffline()) {
+                        currCommand.setOutputMessage(currUser.getUsername() + " is offline.");
+                    } else {
+                        currCommand.setOutputMessage(currUser.printCurrentPage());
+                    }
                     outputList.add(currCommand.getOutput());
                     break;
+                case "addEvent":
+                    if (currUser != null) {
+                        currCommand.setOutputMessage(currUser.addEvent(currCommand));
+                    } else {
+                        currCommand.setOutputMessage("The username " + currCommand.getUsername() + " doesn't exist.");
+                    }
+                    outputList.add(currCommand.getOutput());
+                    break;
+                case "addMerch":
+//                    if (currCommand.getTimestamp() == 115) {
+//                        int scds = 777;
+//                    }
+                    if (currUser != null) {
+                        currCommand.setOutputMessage(currUser.addMerch(currCommand));
+                    } else {
+                        currCommand.setOutputMessage("The username " + currCommand.getUsername() + " doesn't exist.");
+                    }
+                    outputList.add(currCommand.getOutput());
                 default:
                     break;
 

@@ -1,6 +1,7 @@
 package command.input;
 
 import fileio.input.SongInput;
+import lombok.Getter;
 import output.Output;
 import output.UserOutput;
 
@@ -8,42 +9,42 @@ import java.util.List;
 
 public class UserCommand extends Command {
 
+    @Getter
     private String name;
+    @Getter
     private int releaseYear;
+    @Getter
     private String description;
+    @Getter
     private List<SongInput> songs;
     private UserOutput output;
-
-    public String getName() {
-        return name;
-    }
+    @Getter
+    private String date;
+    @Getter
+    private int price;
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getReleaseYear() {
-        return releaseYear;
     }
 
     public void setReleaseYear(int releaseYear) {
         this.releaseYear = releaseYear;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
     public void setDescription(String description) {
         this.description = description;
     }
 
-    public List<SongInput> getSongs() {
-        return songs;
-    }
-
     public void setSongs(List<SongInput> songs) {
         this.songs = songs;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public UserCommand(){
@@ -54,6 +55,7 @@ public class UserCommand extends Command {
         super.username = source.getUsername();
         super.timestamp = source.getTimestamp();
         this.output = new UserOutput();
+        this.date = source.getDate();
         output.setCommand(source.getCommand());
         output.setUser(source.getUsername());
         output.setTimestamp(source.getTimestamp());
@@ -61,6 +63,7 @@ public class UserCommand extends Command {
         this.name = source.getName();
         this.description = source.getDescription();
         this.releaseYear = source.getReleaseYear();
+        this.price = source.getPrice();
     }
 
     public Output getOutput() {
