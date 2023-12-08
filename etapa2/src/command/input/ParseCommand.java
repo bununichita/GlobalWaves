@@ -112,6 +112,15 @@ public class ParseCommand {
                 case "addUser":
                     parsedCommands.add(new AdminCommand(nonParsedCommand));
                     break;
+                case "addAlbum":
+                    parsedCommands.add(new UserCommand(nonParsedCommand));
+                    break;
+                case "showAlbums":
+                    parsedCommands.add(new UserCommand(nonParsedCommand));
+                    break;
+                case "printCurrentPage":
+                    parsedCommands.add((new UserCommand(nonParsedCommand)));
+                    break;
                 default:
                     break;
             }

@@ -10,6 +10,7 @@ import java.util.List;
 
 public class DoCommand {
     private static List<Playlist> allPlaylists = new ArrayList<>();
+    private static List<Album> allAlbums = new ArrayList<>();
 
     public static List<Playlist> getAllPlaylists() {
         return allPlaylists;
@@ -17,6 +18,14 @@ public class DoCommand {
 
     public static void setAllPlaylists(final List<Playlist> allPlaylists) {
         DoCommand.allPlaylists = allPlaylists;
+    }
+
+    public static List<Album> getAllAlbums() {
+        return allAlbums;
+    }
+
+    public static void setAllAlbums(List<Album> allAlbums) {
+        DoCommand.allAlbums = allAlbums;
     }
 
     private void doSearch(final StoreUsers currUser, final Command currCommand,
@@ -153,167 +162,182 @@ public class DoCommand {
             if (currCommand.getCommand().equals("getOnlineUsers")) {
                 int hello = 777;
             }
-                switch (currCommand.getCommand()) {
-                    case "search":
-                        doSearch(currUser, currCommand, outputList);
-                        break;
-                    case "select":
-                        doSelect(currCommand, currUser, outputList);
-                        break;
-                    case "load":
-                        doLoad(currCommand, currUser, outputList);
-                        break;
-                    case "status":
-                        doStatus(currCommand, currUser, outputList);
-                        break;
-                    case "playPause":
-                        doPlayPause(currCommand, currUser, outputList);
-                        break;
-                    case "createPlaylist":
-                        doCreatePlaylist(currCommand, currUser, outputList);
-                        break;
-                    case "addRemoveInPlaylist":
-                        doAddRemoveInPlaylist(currCommand, currUser, outputList);
-                        break;
-                    case "like":
-                        currUser.updateAudioSource(currCommand);
-                        currUser.updateTimestamp(currCommand.getTimestamp());
-                        PlaylistOutput likeOutput = new PlaylistOutput();
-                        likeOutput.initPlaylistFromCommand(currCommand);
-                        String likeMessage;
-                        if (currUser.isStatusOffline()) {
-                            likeMessage = currUser.getUsername() + " is offline.";
-                        } else {
-                            likeMessage =
-                                    currUser.userLikeUnlike((PlaylistCommand) currCommand,
-                                            allSongsByLikes);
-                        }
-                        likeOutput.setMessage(likeMessage);
-                        outputList.add(likeOutput);
-                        break;
-                    case "showPlaylists":
-                        currUser.updateAudioSource(currCommand);
-                        currUser.updateTimestamp(currCommand.getTimestamp());
-                        PlaylistOutput showPlaylistsOutput = new PlaylistOutput();
-                        showPlaylistsOutput.initPlaylistFromCommand(currCommand);
-                        showPlaylistsOutput.setResult(currUser.getCurrentUserPlaylistList());
-                        outputList.add(showPlaylistsOutput);
-                        break;
-                    case "showPreferredSongs":
-                        currUser.updateAudioSource(currCommand);
-                        currUser.updateTimestamp(currCommand.getTimestamp());
-                        PlaylistOutput showPreferredSongsOutput = new PlaylistOutput();
-                        showPreferredSongsOutput.initPlaylistFromCommand(currCommand);
-                        showPreferredSongsOutput.
-                                setResult(new ArrayList<>(currUser.userShowLikedSongs()));
-                        outputList.add(showPreferredSongsOutput);
-                        break;
-                    case "repeat":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput repeatOutput = new PlayerOutput();
-                        repeatOutput.initPlayerFromCommand(currCommand);
-                        repeatOutput.setMessage(currUser.userRepeat());
-                        if (currUser.getUserAudioSource() != null) {
-                            if (currUser.getUserAudioSource().getAudioType().equals("playlist")) {
-                                if (currUser.getUserAudioSource().
-                                        getRepeat().equals("Repeat Current Song")) {
-                                    ((SourcePlaylist) currUser.getUserAudioSource()).
-                                            storeRepeatedSong();
-                                }
+            switch (currCommand.getCommand()) {
+                case "search":
+                    doSearch(currUser, currCommand, outputList);
+                    break;
+                case "select":
+                    doSelect(currCommand, currUser, outputList);
+                    break;
+                case "load":
+                    doLoad(currCommand, currUser, outputList);
+                    break;
+                case "status":
+                    doStatus(currCommand, currUser, outputList);
+                    break;
+                case "playPause":
+                    doPlayPause(currCommand, currUser, outputList);
+                    break;
+                case "createPlaylist":
+                    doCreatePlaylist(currCommand, currUser, outputList);
+                    break;
+                case "addRemoveInPlaylist":
+                    doAddRemoveInPlaylist(currCommand, currUser, outputList);
+                    break;
+                case "like":
+                    currUser.updateAudioSource(currCommand);
+                    currUser.updateTimestamp(currCommand.getTimestamp());
+                    PlaylistOutput likeOutput = new PlaylistOutput();
+                    likeOutput.initPlaylistFromCommand(currCommand);
+                    String likeMessage;
+                    if (currUser.isStatusOffline()) {
+                        likeMessage = currUser.getUsername() + " is offline.";
+                    } else {
+                        likeMessage =
+                                currUser.userLikeUnlike((PlaylistCommand) currCommand,
+                                        allSongsByLikes);
+                    }
+                    likeOutput.setMessage(likeMessage);
+                    outputList.add(likeOutput);
+                    break;
+                case "showPlaylists":
+                    currUser.updateAudioSource(currCommand);
+                    currUser.updateTimestamp(currCommand.getTimestamp());
+                    PlaylistOutput showPlaylistsOutput = new PlaylistOutput();
+                    showPlaylistsOutput.initPlaylistFromCommand(currCommand);
+                    showPlaylistsOutput.setResult(currUser.getCurrentUserPlaylistList());
+                    outputList.add(showPlaylistsOutput);
+                    break;
+                case "showPreferredSongs":
+                    currUser.updateAudioSource(currCommand);
+                    currUser.updateTimestamp(currCommand.getTimestamp());
+                    PlaylistOutput showPreferredSongsOutput = new PlaylistOutput();
+                    showPreferredSongsOutput.initPlaylistFromCommand(currCommand);
+                    showPreferredSongsOutput.
+                            setResult(new ArrayList<>(currUser.userShowLikedSongs()));
+                    outputList.add(showPreferredSongsOutput);
+                    break;
+                case "repeat":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput repeatOutput = new PlayerOutput();
+                    repeatOutput.initPlayerFromCommand(currCommand);
+                    repeatOutput.setMessage(currUser.userRepeat());
+                    if (currUser.getUserAudioSource() != null) {
+                        if (currUser.getUserAudioSource().getAudioType().equals("playlist")) {
+                            if (currUser.getUserAudioSource().
+                                    getRepeat().equals("Repeat Current Song")) {
+                                ((SourcePlaylist) currUser.getUserAudioSource()).
+                                        storeRepeatedSong();
                             }
                         }
-                        outputList.add(repeatOutput);
-                        break;
-                    case "shuffle":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput shuffleOutput = new PlayerOutput();
-                        shuffleOutput.initPlayerFromCommand(currCommand);
-                        int seed = ((PlayerCommand) currCommand).getSeed();
-                        shuffleOutput.setMessage(currUser.userShuffle(seed));
-                        outputList.add(shuffleOutput);
-                        break;
-                    case "next":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput nextOutput = new PlayerOutput();
-                        nextOutput.initPlayerFromCommand(currCommand);
-                        String nextMessage = currUser.userNext();
-                        nextOutput.setMessage(nextMessage);
-                        outputList.add(nextOutput);
-                        break;
-                    case "prev":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput prevOutput = new PlayerOutput();
-                        prevOutput.initPlayerFromCommand(currCommand);
-                        String prevMessage = currUser.userPrev();
-                        prevOutput.setMessage(prevMessage);
-                        outputList.add(prevOutput);
-                        break;
-                    case "forward":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput forwardOutput = new PlayerOutput();
-                        forwardOutput.initPlayerFromCommand(currCommand);
-                        String forwardMessage = currUser.userForward();
-                        forwardOutput.setMessage(forwardMessage);
-                        outputList.add(forwardOutput);
-                        break;
-                    case "backward":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput backwardOutput = new PlayerOutput();
-                        backwardOutput.initPlayerFromCommand(currCommand);
-                        String backwardMessage = currUser.userBackward();
-                        backwardOutput.setMessage(backwardMessage);
-                        outputList.add(backwardOutput);
-                        break;
-                    case "follow":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput followOutput = new PlayerOutput();
-                        followOutput.initPlayerFromCommand(currCommand);
-                        String followMessage = currUser.userFollow();
-                        followOutput.setMessage(followMessage);
-                        outputList.add(followOutput);
-                        break;
-                    case "switchVisibility":
-                        currUser.updateAudioSource(currCommand);
-                        PlayerOutput switchVisibilityOutput = new PlayerOutput();
-                        switchVisibilityOutput.initPlayerFromCommand(currCommand);
-                        String switchVisibilityMessage = currUser.
-                                userSwitchVisibility(((PlayerCommand) currCommand).getPlaylistId());
-                        switchVisibilityOutput.setMessage(switchVisibilityMessage);
-                        outputList.add(switchVisibilityOutput);
-                        break;
-                    case "getTop5Playlists":
-                        StatisticsOutput top5PlaylistsOutput = new StatisticsOutput();
-                        top5PlaylistsOutput.initStatisticsFromCommand(currCommand);
-                        top5PlaylistsOutput.setPlaylistResult(allPlaylists);
-                        outputList.add(top5PlaylistsOutput);
-                        break;
-                    case"getTop5Songs":
-                        StatisticsOutput top5SongsOutput = new StatisticsOutput();
-                        top5SongsOutput.initStatisticsFromCommand(currCommand);
-                        top5SongsOutput.setSongResult(allSongsByLikes);
-                        outputList.add(top5SongsOutput);
-                        break;
-                    case "switchConnectionStatus":
-                        if (currUser != null) {
-                            currCommand.setOutputMessage(currUser.userSwitchConStat(currCommand));
-                        } else {
-                            currCommand.setOutputMessage("The username " + currCommand.getUsername() + " doesn't exist.");
-                        }
+                    }
+                    outputList.add(repeatOutput);
+                    break;
+                case "shuffle":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput shuffleOutput = new PlayerOutput();
+                    shuffleOutput.initPlayerFromCommand(currCommand);
+                    int seed = ((PlayerCommand) currCommand).getSeed();
+                    shuffleOutput.setMessage(currUser.userShuffle(seed));
+                    outputList.add(shuffleOutput);
+                    break;
+                case "next":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput nextOutput = new PlayerOutput();
+                    nextOutput.initPlayerFromCommand(currCommand);
+                    String nextMessage = currUser.userNext();
+                    nextOutput.setMessage(nextMessage);
+                    outputList.add(nextOutput);
+                    break;
+                case "prev":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput prevOutput = new PlayerOutput();
+                    prevOutput.initPlayerFromCommand(currCommand);
+                    String prevMessage = currUser.userPrev();
+                    prevOutput.setMessage(prevMessage);
+                    outputList.add(prevOutput);
+                    break;
+                case "forward":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput forwardOutput = new PlayerOutput();
+                    forwardOutput.initPlayerFromCommand(currCommand);
+                    String forwardMessage = currUser.userForward();
+                    forwardOutput.setMessage(forwardMessage);
+                    outputList.add(forwardOutput);
+                    break;
+                case "backward":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput backwardOutput = new PlayerOutput();
+                    backwardOutput.initPlayerFromCommand(currCommand);
+                    String backwardMessage = currUser.userBackward();
+                    backwardOutput.setMessage(backwardMessage);
+                    outputList.add(backwardOutput);
+                    break;
+                case "follow":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput followOutput = new PlayerOutput();
+                    followOutput.initPlayerFromCommand(currCommand);
+                    String followMessage = currUser.userFollow();
+                    followOutput.setMessage(followMessage);
+                    outputList.add(followOutput);
+                    break;
+                case "switchVisibility":
+                    currUser.updateAudioSource(currCommand);
+                    PlayerOutput switchVisibilityOutput = new PlayerOutput();
+                    switchVisibilityOutput.initPlayerFromCommand(currCommand);
+                    String switchVisibilityMessage = currUser.
+                            userSwitchVisibility(((PlayerCommand) currCommand).getPlaylistId());
+                    switchVisibilityOutput.setMessage(switchVisibilityMessage);
+                    outputList.add(switchVisibilityOutput);
+                    break;
+                case "getTop5Playlists":
+                    StatisticsOutput top5PlaylistsOutput = new StatisticsOutput();
+                    top5PlaylistsOutput.initStatisticsFromCommand(currCommand);
+                    top5PlaylistsOutput.setPlaylistResult(allPlaylists);
+                    outputList.add(top5PlaylistsOutput);
+                    break;
+                case"getTop5Songs":
+                    StatisticsOutput top5SongsOutput = new StatisticsOutput();
+                    top5SongsOutput.initStatisticsFromCommand(currCommand);
+                    top5SongsOutput.setSongResult(allSongsByLikes);
+                    outputList.add(top5SongsOutput);
+                    break;
+                case "switchConnectionStatus":
+                    if (currUser != null) {
+                        currCommand.setOutputMessage(currUser.userSwitchConStat(currCommand));
+                    } else {
+                        currCommand.setOutputMessage("The username " + currCommand.getUsername() + " doesn't exist.");
+                    }
 
-                        outputList.add(currCommand.getOutput());
+                    outputList.add(currCommand.getOutput());
 
-                        break;
-                    case "getOnlineUsers":
-                        currCommand.setResult(getOnlineUsers(users));
-                        outputList.add(currCommand.getOutput());
-                        break;
-                    case "addUser":
-                        StoreAdmin admin = new StoreAdmin();
-                        currCommand.setOutputMessage(admin.addUser(currCommand, users));
-                        outputList.add(currCommand.getOutput());
-                        break;
-                    default:
-                        break;
+                    break;
+                case "getOnlineUsers":
+                    currCommand.setResult(getOnlineUsers(users));
+                    outputList.add(currCommand.getOutput());
+                    break;
+                case "addUser":
+                    StoreAdmin admin = new StoreAdmin();
+                    currCommand.setOutputMessage(admin.addUser(currCommand, users));
+                    outputList.add(currCommand.getOutput());
+                    break;
+                case "addAlbum":
+                    if (currCommand.getTimestamp() == 560) {
+                        int csdc = 777;
+                    }
+                    currCommand.setOutputMessage(currUser.addAlbum(currCommand));
+                    outputList.add(currCommand.getOutput());
+                    break;
+                case "showAlbums":
+                    currCommand.setResult(currUser.getAlbums());
+                    outputList.add(currCommand.getOutput());
+                    break;
+                case "printCurrentPage":
+                    currCommand.setOutputMessage(currUser.printCurrentPage());
+                    outputList.add(currCommand.getOutput());
+                    break;
+                default:
+                    break;
 
             }
         }

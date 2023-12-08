@@ -351,4 +351,13 @@ public abstract class StoreUsers {
     public String addUser(Command command, List<StoreUsers> users) {
     return null;
     }
+    public String addAlbum(Command command) {
+        return this.username + " is not an artist.";
+    }
+    public Object getAlbums() {
+        return null;
+    }
+    public String printCurrentPage() {
+        return this.username + " is trying to access a non-existent page.";
+    }
 }

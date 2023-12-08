@@ -10,6 +10,8 @@ import fileio.input.SongInput;
 import output.Output;
 import output.SearchOutput;
 import output.Stats;
+import user.page.HomePage;
+import user.page.Page;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +34,7 @@ public class StoreNormalUsers extends StoreUsers{
     private final int forwardBackwardTime = 90;
     private boolean statusOffline;
     private boolean isPausedOffline;
+    private Page currentPage = new HomePage();
 
     public boolean getIsPausedOffline() {
         return isPausedOffline;
@@ -857,5 +860,9 @@ public class StoreNormalUsers extends StoreUsers{
         } else {
             return null;
         }
+    }
+    @Override
+    public String printCurrentPage() {
+        return currentPage.print(this);
     }
 }

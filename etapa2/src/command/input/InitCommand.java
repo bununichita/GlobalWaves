@@ -3,6 +3,7 @@ package command.input;
 import fileio.input.EpisodeInput;
 import fileio.input.SongInput;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class InitCommand {

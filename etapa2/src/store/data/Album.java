@@ -1,20 +1,27 @@
 package store.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import command.input.UserCommand;
 import fileio.input.SongInput;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Album {
     private String name;
+    @JsonIgnore
     private int releaseYear;
+    @JsonIgnore
     private String description;
+    @JsonIgnore
     private List<SongInput> songList;
+    @JsonIgnore
     private String owner;
     private List<String> songs;
     public Album() {
-
+        this.songList = new ArrayList<>();
+        this.songs = new ArrayList<>();
     }
 
     public Album(final Album source) {
@@ -94,6 +101,22 @@ public class Album {
         songs.clear();
         for (SongInput currSong : songList) {
             songs.add(currSong.getName());
+        }
+    }
+
+    /**
+     * Initialize instance before calling
+     * Changes the current Album instance fields
+     * @param command current command
+     */
+    public void initAlbumFromCommand(UserCommand command) {
+        this.name = command.getName();
+        this.songList = command.getSongs();
+        this.releaseYear = command.getReleaseYear();
+        this.owner = command.getUsername();
+        this.description = command.getDescription();
+        for (SongInput currSong : songList) {
+            this.songs.add(currSong.getName());
         }
     }
 }
