@@ -108,4 +108,12 @@ public class SourceSong extends SourceAudio {
         }
         return "Problem to changeRepeat in SourceSong";
     }
+    @Override
+    public String getOwner() {
+        return currentSong.getArtist();
+    }
+    @Override
+    public String getName() {
+        return currentSong.getName();
+    }
 }

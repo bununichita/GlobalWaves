@@ -1,10 +1,12 @@
 package output;
 
+import command.input.Command;
 import command.input.DoCommand;
 import command.input.SearchCommand;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
+import store.data.Album;
 import store.data.Playlist;
 import store.data.StoreUsers;
 
@@ -221,6 +223,34 @@ public class SearchOutput extends Output {
         }
 
     }
+    public void foundAlbumName(SearchCommand command) {
+        int albumsFound = 0;
+        for (Album currAlbum : DoCommand.getAllAlbums()) {
+            boolean validCandidate = true;
+            if (command.getFilters().getName() != null) {
+                if (!currAlbum.getName().startsWith(command.getFilters().getName())) {
+                    validCandidate = false;
+                }
+            }
+            if (command.getFilters().getOwner() != null) {
+                if (!currAlbum.getOwner().startsWith(command.getFilters().getOwner())) {
+                    validCandidate = false;
+                }
+            }
+            if (command.getFilters().getDescription() != null) {
+                if (!currAlbum.getDescription().startsWith(command.getFilters().getDescription())) {
+                    validCandidate = false;
+                }
+            }
+            if (validCandidate) {
+                results.add(currAlbum.getName());
+                albumsFound++;
+            }
+            if (albumsFound == maxNumber) {
+                return;
+            }
+        }
+    }
 
     /**
      * Decides the search type
@@ -236,6 +266,8 @@ public class SearchOutput extends Output {
             foundPlaylistName(command, allPlaylist);
         } else if (command.getType().equals("artist")) {
             foundArtistName(command);
+        } else if (command.getType().equals("album")) {
+            foundAlbumName(command);
         }
     }
 

@@ -131,4 +131,10 @@ public class SourceAudio {
             totalPlayed += timestamp - lastTimestamp;
         }
     }
+    public String getOwner() {
+        return "default Return";
+    }
+    public String getName() {
+        return "defaultReturn";
+    }
 }

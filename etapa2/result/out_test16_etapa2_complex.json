@@ -5022,29 +5022,23 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 6012,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Electric Revolution" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 6017,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 6022,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6027,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "carol19",
@@ -5054,13 +5048,7 @@
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6037,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "carol19",
@@ -5079,66 +5067,47 @@
   "command" : "shuffle",
   "user" : "carol19",
   "timestamp" : 6052,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6057,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 6058,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 6058
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6312,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6313,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 6323,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Electric Revolution" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 6328,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Revolution."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 6333,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6338,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "david27",
@@ -5148,13 +5117,7 @@
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6348,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "david27",
@@ -5173,66 +5136,47 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 6363,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6368,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 6369,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 6369
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6623,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 6624,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 6634,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 6639,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 6644,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6649,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "emily30",
@@ -5242,13 +5186,7 @@
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6659,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "emily30",
@@ -5267,66 +5205,47 @@
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6674,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6679,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 6680,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 6680
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6934,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 6935,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 6945,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 6950,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 6955,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6960,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "frank21",
@@ -5336,13 +5255,7 @@
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6970,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "frank21",
@@ -5361,66 +5274,47 @@
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6985,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6990,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 6991,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 6991
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 7245,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 7246,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7256,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 7261,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 7266,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7271,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "grace25",
@@ -5430,13 +5324,7 @@
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7281,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "grace25",
@@ -5455,66 +5343,47 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 7296,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7301,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 7302,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 7302
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7556,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 7557,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7567,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Autumn" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 7572,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Autumn."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 7577,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 7582,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "henry26",
@@ -5524,13 +5393,7 @@
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 7592,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "henry26",
@@ -5549,66 +5412,47 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 7607,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 7612,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 7613,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 7613
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 7867,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 7868,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7878,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 7883,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 7888,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7893,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "irene33",
@@ -5618,13 +5462,7 @@
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7903,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "switchConnectionStatus",
   "user" : "irene33",
@@ -5643,39 +5481,26 @@
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 7918,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7923,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 7924,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 7924
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 8178,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "stats" : null
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 8179,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -8760,8 +8585,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -8771,27 +8596,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10280,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10280
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10280,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -8811,8 +8635,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -8822,27 +8646,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 10290,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10290
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -8862,8 +8685,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -8873,27 +8696,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 10300,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10300
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -8913,8 +8735,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Funeral ", "Electric Funeral " ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -8924,27 +8746,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 10310,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10310
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -8964,8 +8785,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -8975,27 +8796,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 10320,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10320
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -9015,8 +8835,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Alone Hood", "Alone Hood", "Alone Hood" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9026,27 +8846,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 10330,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10330
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -9066,8 +8885,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -9077,27 +8896,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 10340,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10340
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -9117,8 +8935,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -9128,27 +8946,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 10350,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10350
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9168,8 +8985,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Electric Revolution" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -9179,27 +8996,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Revolution."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 10360,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10360
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -9219,8 +9035,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -9230,27 +9046,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 10370,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10370
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -9270,8 +9085,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -9281,27 +9096,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10380,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10380
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10380,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -9423,8 +9237,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Teen Harmonies", "Teen Harmonies" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -9434,32 +9248,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 10410,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10410
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "printCurrentPage",
-  "user" : "david27",
-  "timestamp" : 10410,
-  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -9467,6 +9275,11 @@
   "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "printCurrentPage",
+  "user" : "david27",
+  "timestamp" : 10410,
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10420,
   "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
@@ -9525,8 +9338,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Breezy View", "Breezy View" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9536,27 +9349,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 10430,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10430
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -9576,8 +9388,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -9587,27 +9399,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 10440,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10440
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -9627,8 +9438,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Bad Revolution", "Bad Revolution", "Bad Revolution", "Bad Revolution" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -9638,27 +9449,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 10450,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10450
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9678,8 +9488,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Autumn" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -9689,27 +9499,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Autumn."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 10460,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10460
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -9729,8 +9538,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -9740,27 +9549,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 10470,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10470
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -9780,8 +9588,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Chill Technology", "Chill Technology" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -9791,27 +9599,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Technology."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10480,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10480
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10480,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -9831,8 +9638,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chill Funeral " ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -9842,27 +9649,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Funeral ."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 10490,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10490
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10490,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -9882,8 +9688,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Electric View", "Electric View", "Electric View" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -9893,27 +9699,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 10500,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10500
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -9933,8 +9738,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chill Funeral " ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -9944,27 +9749,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Funeral ."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 10510,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10510
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10510,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -9984,8 +9788,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -9995,27 +9799,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 10520,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10520
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -10035,8 +9838,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Autumn" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -10046,27 +9849,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Autumn."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 10530,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10530
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -10137,8 +9939,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Bad Revolution", "Bad Revolution", "Bad Revolution", "Bad Revolution" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -10148,27 +9950,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 10550,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10550
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -10188,8 +9989,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Alone Hood", "Alone Hood", "Alone Hood" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -10199,27 +10000,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 10560,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10560
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -10239,8 +10039,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -10250,27 +10050,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 10570,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10570
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10290,8 +10089,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Funeral ", "Electric Funeral " ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -10301,27 +10100,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10580,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10580
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -10341,8 +10139,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -10352,27 +10150,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 10590,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10590
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -10392,8 +10189,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Chill Technology", "Chill Technology" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -10403,27 +10200,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Technology."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 10600,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10600
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10600,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -10443,8 +10239,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -10454,27 +10250,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 10610,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10610
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -10545,8 +10340,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -10556,27 +10351,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 10630,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10630
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -10596,8 +10390,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -10607,27 +10401,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 10640,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10640
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -10647,8 +10440,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Autumn" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -10658,27 +10451,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Autumn."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 10650,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10650
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10650,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -10698,8 +10490,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Funeral ", "Electric Funeral " ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -10709,27 +10501,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 10660,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10660
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -10749,8 +10540,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Electric View", "Electric View", "Electric View" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -10760,27 +10551,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 10670,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10670
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10800,8 +10590,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -10811,27 +10601,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10680,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10680
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -10902,8 +10691,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chill Funeral " ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -10913,27 +10702,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Funeral ."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 10700,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10700
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10700,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -10953,8 +10741,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chill Funeral " ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -10964,27 +10752,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Funeral ."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 10710,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10710
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10710,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -11004,8 +10791,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -11015,27 +10802,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 10720,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10720
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -11106,8 +10892,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Revolution" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -11117,27 +10903,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 10740,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10740
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -11157,8 +10942,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -11168,27 +10953,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 10750,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10750
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -11208,8 +10992,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -11219,27 +11003,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 10760,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10760
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -11259,8 +11042,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Revolution" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11270,27 +11053,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 10770,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10770
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11310,8 +11092,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -11321,27 +11103,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10780,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10780
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11361,8 +11142,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Guide" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -11372,27 +11153,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 10790,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10790
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -11412,8 +11192,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -11423,27 +11203,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 10800,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10800
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10800,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -11463,8 +11242,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Blue Technology", "Blue Technology", "Blue Technology" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -11474,27 +11253,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 10810,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10810
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -11514,8 +11292,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Revolution" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -11525,27 +11303,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 10820,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10820
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -11565,8 +11342,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Electric Revolution" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -11576,27 +11353,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Revolution."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 10830,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10830
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -11616,8 +11392,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -11627,27 +11403,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 10840,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10840
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -11667,8 +11442,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Alone Hood", "Alone Hood", "Alone Hood" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -11678,27 +11453,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 10850,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10850
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -11718,8 +11492,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Autumn" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -11729,27 +11503,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Autumn."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 10860,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10860
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -11769,8 +11542,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Teen Harmonies", "Teen Harmonies" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11780,27 +11553,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 10870,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10870
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11820,8 +11592,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -11831,27 +11603,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10880,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10880
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11871,8 +11642,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -11882,27 +11653,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 10890,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10890
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10890,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -11922,8 +11692,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Breezy View", "Breezy View" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -11933,27 +11703,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 10900,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10900
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -11973,8 +11742,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -11984,27 +11753,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 10910,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10910
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -12024,8 +11792,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Electric View", "Electric View", "Electric View" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -12035,27 +11803,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 10920,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10920
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -12075,8 +11842,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Revolution" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -12086,27 +11853,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 10930,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10930
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -12126,8 +11892,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -12137,27 +11903,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 10940,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10940
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -12177,8 +11942,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Chill Technology", "Chill Technology" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -12188,27 +11953,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Technology."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 10950,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10950
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10950,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -12228,8 +11992,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -12239,27 +12003,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 10960,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10960
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -12279,8 +12042,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Funeral ", "Electric Funeral " ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -12290,27 +12053,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 10970,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10970
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -12330,8 +12092,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Electric Revolution" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -12341,27 +12103,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Revolution."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 10980,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10980
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10980,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -12381,8 +12142,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Revolution" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -12392,27 +12153,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 10990,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 10990
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -12432,8 +12192,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -12443,27 +12203,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11000,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11000
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -12483,8 +12242,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Breezy View", "Breezy View" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -12494,27 +12253,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11010,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11010
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -12534,8 +12292,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -12545,27 +12303,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 11020,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11020
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -12585,8 +12342,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Alone Hood", "Alone Hood", "Alone Hood" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -12596,27 +12353,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11030,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11030
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -12636,8 +12392,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -12647,27 +12403,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11040,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11040
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -12687,8 +12442,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -12698,27 +12453,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 11050,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11050
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -12789,8 +12543,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -12800,27 +12554,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 11070,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11070
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -12840,8 +12593,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Funeral ", "Electric Funeral " ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -12851,27 +12604,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 11080,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11080
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -12891,8 +12643,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -12902,27 +12654,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 11090,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11090
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -12942,8 +12693,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Autumn" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -12953,27 +12704,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Autumn."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11100,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11100
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11100,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -12993,8 +12743,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -13004,27 +12754,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11110,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11110
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13044,8 +12793,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -13055,27 +12804,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 11120,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11120
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -13095,8 +12843,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Blue Technology", "Blue Technology", "Blue Technology" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -13106,27 +12854,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11130,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11130
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -13146,8 +12893,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Chill Funeral " ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -13157,27 +12904,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Funeral ."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11140,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11140
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -13197,8 +12943,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Guide" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -13208,27 +12954,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 11150,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11150
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -13248,8 +12993,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13259,27 +13004,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 11160,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11160
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -13299,8 +13043,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Breezy View", "Breezy View" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -13310,27 +13054,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 11170,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11170
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13401,8 +13144,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -13412,27 +13155,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 11190,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11190
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13452,8 +13194,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Electric Revolution" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -13463,27 +13205,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11200,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11200
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11200,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -13503,8 +13244,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -13514,27 +13255,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11210,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11210
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13554,8 +13294,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -13565,27 +13305,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 11220,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11220
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -13605,8 +13344,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Chill Technology", "Chill Technology" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -13616,27 +13355,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Chill Technology."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11230,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11230
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -13656,8 +13394,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -13667,27 +13405,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11240,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11240
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -13758,8 +13495,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13769,27 +13506,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 11260,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11260
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -13809,8 +13545,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -13820,27 +13556,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 11270,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11270
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13860,8 +13595,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -13871,27 +13606,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 11280,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11280
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -13911,8 +13645,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -13922,27 +13656,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 11290,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11290
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13962,8 +13695,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -13973,27 +13706,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11300,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11300
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -14013,8 +13745,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Alone Hood", "Alone Hood", "Alone Hood" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -14024,27 +13756,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11310,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11310
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -14064,8 +13795,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -14075,27 +13806,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 11320,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11320
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -14115,8 +13845,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -14126,27 +13856,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11330,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11330
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -14166,8 +13895,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -14177,27 +13906,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11340,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11340
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -14217,8 +13945,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Electric View", "Electric View", "Electric View" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -14228,27 +13956,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 11350,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11350
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -14268,8 +13995,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -14279,27 +14006,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 11360,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11360
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -14319,8 +14045,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Bad Dirt", "Bad Dirt", "Bad Dirt" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -14330,27 +14056,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 11370,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11370
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -14370,8 +14095,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -14381,27 +14106,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 11380,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11380
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -14421,8 +14145,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Alone Hood", "Alone Hood", "Alone Hood" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -14432,27 +14156,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 11390,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11390
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -14472,8 +14195,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Revolution" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -14483,27 +14206,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11400,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11400
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -14523,8 +14245,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -14534,27 +14256,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11410,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11410
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -14574,8 +14295,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -14585,27 +14306,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 11420,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11420
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -14625,8 +14345,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Guide" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -14636,27 +14356,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11430,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11430
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -14676,8 +14395,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Guide" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -14687,27 +14406,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11440,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11440
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -14727,8 +14445,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Breezy View", "Breezy View" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -14738,27 +14456,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 11450,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11450
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -14778,8 +14495,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -14789,27 +14506,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 11460,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11460
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -14880,8 +14596,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -14891,27 +14607,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 11480,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11480
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11480,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -14982,8 +14697,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Bad Revolution", "Bad Revolution", "Bad Revolution", "Bad Revolution" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -14993,27 +14708,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11500,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11500
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -15033,8 +14747,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Dreams" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15044,27 +14758,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11510,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11510
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -15135,8 +14848,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -15146,27 +14859,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11530,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11530
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -15186,8 +14898,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Teen Technology", "Teen Technology", "Teen Technology" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -15197,27 +14909,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11540,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11540
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -15237,8 +14948,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Blue Technology", "Blue Technology", "Blue Technology" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -15248,27 +14959,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 11550,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11550
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -15288,8 +14998,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -15299,27 +15009,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 11560,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11560
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -15339,8 +15048,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Bad Revolution", "Bad Revolution", "Bad Revolution", "Bad Revolution" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -15350,27 +15059,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 11570,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11570
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -15390,8 +15098,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Breezy View", "Breezy View" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -15401,27 +15109,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 11580,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11580
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -15441,8 +15148,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -15452,27 +15159,26 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
-  "timestamp" : 11590,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11590
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -15492,8 +15198,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Bad Revolution", "Bad Revolution", "Bad Revolution", "Bad Revolution" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -15503,27 +15209,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11600,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11600
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -15543,8 +15248,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Blue Technology", "Blue Technology", "Blue Technology" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15554,27 +15259,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11610,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11610
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -15645,8 +15349,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Alone Hood", "Alone Hood", "Alone Hood" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -15656,27 +15360,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11630,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11630
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -15696,8 +15399,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Teen Harmonies", "Teen Harmonies" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -15707,27 +15410,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Harmonies."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11640,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11640
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -15747,8 +15449,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Harmonies", "Groovy Harmonies" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -15758,27 +15460,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 11650,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11650
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -15849,8 +15550,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "Blue Technology", "Blue Technology", "Blue Technology" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -15860,27 +15561,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 11670,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11670
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -15900,8 +15600,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Bad Autumn" ]
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -15911,27 +15611,26 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Autumn."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
-  "timestamp" : 11680,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11680
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11680,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -16002,8 +15701,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Hood", "Groovy Hood" ]
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -16013,27 +15712,26 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
-  "timestamp" : 11700,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11700
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16053,8 +15751,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -16064,27 +15762,26 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
-  "timestamp" : 11710,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11710
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11710,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16104,8 +15801,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -16115,27 +15812,26 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
-  "timestamp" : 11720,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11720
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
@@ -16155,8 +15851,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Dynamic Dirt" ]
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -16166,27 +15862,26 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
-  "timestamp" : 11730,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11730
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
@@ -16206,8 +15901,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Guide" ]
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -16217,27 +15912,26 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
-  "timestamp" : 11740,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11740
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
@@ -16257,8 +15951,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Teen Revolution" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -16268,27 +15962,26 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
-  "timestamp" : 11750,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11750
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -16308,8 +16001,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -16319,27 +16012,26 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
-  "timestamp" : 11760,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11760
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
@@ -16359,8 +16051,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Groovy Guide" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -16370,27 +16062,26 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Guide."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
-  "timestamp" : 11770,
-  "message" : "Please load a source before skipping to the next track."
+  "timestamp" : 11770
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11770,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -23651,6 +23342,10 @@
   "user" : "jack29",
   "timestamp" : 14850,
   "result" : [ "Delicate", "Start Me Up" ]
+}, {
+  "command" : "getAllUsers",
+  "timestamp" : 14850,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "mccarthyluis", "glester", "anthony22", "jacobdean", "amanda16", "cbutler", "barmstrong", "charlesgarcia", "john99", "jenningsbeth", "fwebb", "matthewporter" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 14850,

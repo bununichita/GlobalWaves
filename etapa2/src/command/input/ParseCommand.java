@@ -103,6 +103,9 @@ public class ParseCommand {
                 case "getTop5Songs":
                     parsedCommands.add(new StatisticsCommand(nonParsedCommand));
                     break;
+                case "getAllUsers":
+                    parsedCommands.add(new StatisticsCommand(nonParsedCommand));
+                    break;
                 case "switchConnectionStatus":
                     parsedCommands.add(new UserCommand(nonParsedCommand));
                     break;
@@ -110,6 +113,9 @@ public class ParseCommand {
                     parsedCommands.add(new UserCommand(nonParsedCommand));
                     break;
                 case "addUser":
+                    parsedCommands.add(new AdminCommand(nonParsedCommand));
+                    break;
+                case "deleteUser":
                     parsedCommands.add(new AdminCommand(nonParsedCommand));
                     break;
                 case "addAlbum":

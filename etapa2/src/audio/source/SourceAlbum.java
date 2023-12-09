@@ -253,4 +253,12 @@ public class SourceAlbum extends SourceAudio {
     public int getAlbumSize() {
         return currentAlbum.getSongList().size();
     }
+    @Override
+    public String getOwner() {
+        return currentAlbum.getOwner();
+    }
+    @Override
+    public String getName() {
+        return currentAlbum.getName();
+    }
 }

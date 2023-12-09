@@ -369,4 +369,15 @@ public abstract class StoreUsers {
     public StoreUsers getArtist() {
         return null;
     }
+    public StoreUsers getNormal() {
+        return null;
+    }
+    public StoreUsers getHost() {
+        return null;
+    }
+    public Album findAlbumByName(String albumName) {
+        return null;
+    }
+    public void deleteAllFiles() {
+    }
 }

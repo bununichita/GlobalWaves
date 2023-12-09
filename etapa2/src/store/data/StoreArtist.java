@@ -229,4 +229,18 @@ public class StoreArtist extends StoreUsers{
             return "";
         }
     }
+    @Override
+    public void deleteAllFiles() {
+        for (Album currAlbum : artistAlbumList) {
+            for (SongInput currSong : currAlbum.getSongList()) {
+                LibraryInput.getInstance().getSongs().remove(currSong);
+                for (StoreUsers currUser : DoCommand.getAllUsers()) {
+                    if (currUser.getNormal() != null) {
+                        currUser.getLikedSongs().remove(currSong);
+                    }
+                }
+            }
+            DoCommand.getAllAlbums().remove(currAlbum);
+        }
+    }
 }

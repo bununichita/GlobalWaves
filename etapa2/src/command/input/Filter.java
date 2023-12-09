@@ -11,9 +11,15 @@ public class Filter {
     private String releaseYear;
     private String artist;
     private String owner;
+    private String description;
 
+    public String getDescription() {
+        return description;
+    }
 
-
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     // Getters and setters...
     public Filter() {

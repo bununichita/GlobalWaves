@@ -193,4 +193,12 @@ public class SourcePodcast extends SourceAudio {
         }
         return -1;
     }
+    @Override
+    public String getOwner() {
+        return currentPodcast.getOwner();
+    }
+    @Override
+    public String getName() {
+        return currentPodcast.getName();
+    }
 }

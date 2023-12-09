@@ -312,6 +312,12 @@ public class DoCommand {
                     top5SongsOutput.setSongResult(allSongsByLikes);
                     outputList.add(top5SongsOutput);
                     break;
+                case "getAllUsers":
+                    StatisticsOutput allUsersOutput = new StatisticsOutput();
+                    allUsersOutput.initStatisticsFromCommand(currCommand);
+                    allUsersOutput.setAllPlayersResult(users);
+                    outputList.add(allUsersOutput);
+                    break;
                 case "switchConnectionStatus":
                     if (currUser != null) {
                         currCommand.setOutputMessage(currUser.userSwitchConStat(currCommand));
@@ -327,15 +333,32 @@ public class DoCommand {
                     outputList.add(currCommand.getOutput());
                     break;
                 case "addUser":
-                    StoreAdmin admin = new StoreAdmin();
-                    currCommand.setOutputMessage(admin.addUser(currCommand, users));
+                    StoreAdmin adminAdd = new StoreAdmin();
+                    currCommand.setOutputMessage(adminAdd.addUser(currCommand, users));
+                    outputList.add(currCommand.getOutput());
+                    break;
+                case "deleteUser":
+                    if (currCommand.getTimestamp() == 1158) {
+                        int csdadcc = 777;
+                    }
+                    if (currCommand.getTimestamp() == 1380) {
+                        int csdc = 777;
+                    }
+
+                    StoreAdmin adminDelete = new StoreAdmin();
+                    currCommand.setOutputMessage(adminDelete.deleteUser(currCommand, users));
                     outputList.add(currCommand.getOutput());
                     break;
                 case "addAlbum":
 //                    if (currCommand.getTimestamp() == 560) {
 //                        int csdc = 777;
 //                    }
-                    currCommand.setOutputMessage(currUser.addAlbum(currCommand));
+                    if (currUser != null) {
+                        currCommand.setOutputMessage(currUser.addAlbum(currCommand));
+                    } else {
+                        currCommand.setOutputMessage("The username " + currCommand.getUsername() + " doesn't exist.");
+                    }
+
                     outputList.add(currCommand.getOutput());
                     break;
                 case "showAlbums":

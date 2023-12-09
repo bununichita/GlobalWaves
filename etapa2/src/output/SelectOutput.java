@@ -57,9 +57,20 @@ public class SelectOutput extends Output {
                     user.setLastUserSelection(userSelection);
                     super.message = "Successfully selected "
                             + user.getLastUserSelection().getSelectedPlaylist().getName() + ".";
+                } else if (user.getLastSearchType().equals("album")) {
+                    userSelection.setType("album");
+                    String albumName = user.getLastSearch().getResults().get(index);
+                    Album selectedAlbum = user.findAlbumByName(albumName);
+                    userSelection.setSelectedAlbum(selectedAlbum);
+                    user.setLastUserSelection(userSelection);
+                    super.message = "Successfully selected "
+                            + user.getLastUserSelection().getSelectedAlbum().getName() + ".";
                 } else if (user.getLastSearchType().equals("artist")) {
                     String artistName = user.getLastSearch().getResults().get(index);
                     StoreUsers selectedArtist = (user.findUserByName(artistName));
+                    if (selectedArtist == null) {
+                        return;
+                    }
                     if (selectedArtist.getArtist() != null) {
                         userSelection.setType("artist");
                         userSelection.setSelectedArtist((StoreArtist) selectedArtist);

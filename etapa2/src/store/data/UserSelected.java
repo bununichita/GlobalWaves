@@ -8,6 +8,7 @@ public class UserSelected {
     private SongInput selectedSong;
     private PodcastInput selectedPodcast;
     private Playlist selectedPlaylist;
+    private Album selectedAlbum;
     private StoreArtist selectedArtist;
 
     public UserSelected() {
@@ -43,6 +44,14 @@ public class UserSelected {
 
     public final void setSelectedPlaylist(final Playlist playlist) {
         this.selectedPlaylist = playlist;
+    }
+
+    public Album getSelectedAlbum() {
+        return selectedAlbum;
+    }
+
+    public void setSelectedAlbum(Album selectedAlbum) {
+        this.selectedAlbum = selectedAlbum;
     }
 
     public final StoreArtist getSelectedArtist() {

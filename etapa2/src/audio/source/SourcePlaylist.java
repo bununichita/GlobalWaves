@@ -370,4 +370,12 @@ public class SourcePlaylist extends SourceAudio {
     public int getPlaylistSize() {
         return currentPlaylist.getSongList().size();
     }
+    @Override
+    public String getOwner() {
+        return currentPlaylist.getOwner();
+    }
+    @Override
+    public String getName() {
+        return currentPlaylist.getName();
+    }
 }

@@ -3,6 +3,7 @@ package output;
 import command.input.Command;
 import store.data.Playlist;
 import store.data.SongsByLikes;
+import store.data.StoreUsers;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -70,6 +71,24 @@ public class StatisticsOutput extends Output {
             }
             localResult.add(currSong.getSong().getName());
             index++;
+        }
+    }
+
+    public void setAllPlayersResult(final List<StoreUsers> allUsers) {
+        for (StoreUsers currUser : allUsers) {
+            if (currUser.getNormal() != null) {
+                localResult.add(currUser.getUsername());
+            }
+        }
+        for (StoreUsers currUser : allUsers) {
+            if (currUser.getArtist() != null) {
+                localResult.add(currUser.getUsername());
+            }
+        }
+        for (StoreUsers currUser : allUsers) {
+            if (currUser.getHost() != null) {
+                localResult.add(currUser.getUsername());
+            }
         }
     }
 

@@ -1,9 +1,6 @@
 package store.data;
 
-import audio.source.SourceAudio;
-import audio.source.SourcePlaylist;
-import audio.source.SourcePodcast;
-import audio.source.SourceSong;
+import audio.source.*;
 import command.input.*;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
@@ -191,6 +188,11 @@ public class StoreNormalUsers extends StoreUsers{
                                 % songSource.getCurrentSong().getDuration();
                         songSource.setTotalPlayed(newTotalPlayed);
                     }
+                } else {
+                    if (songSource.getTotalPlayed()
+                            >= songSource.getCurrentSong().getDuration()) {
+                        userAudioSource = null;
+                    }
                 }
             } else if (userAudioSource.getAudioType().equals("playlist")) {
                 SourcePlaylist playlistSource = (SourcePlaylist) userAudioSource;
@@ -218,6 +220,31 @@ public class StoreNormalUsers extends StoreUsers{
                     }
                 }
 
+            } else if (userAudioSource.getAudioType().equals("album")) {
+                SourceAlbum albumSource = (SourceAlbum) userAudioSource;
+                if (albumSource.getRepeat().equals("Repeat All")) {
+                    if (albumSource.getCurrentAlbum().getDuration()
+                    <= albumSource.getTotalPlayed()) {
+                        int newTotalPlayed = albumSource.getTotalPlayed()
+                                % albumSource.getCurrentAlbum().getDuration();
+                        albumSource.setTotalPlayed(newTotalPlayed);
+                    }
+                } else if (albumSource.getRepeat().equals("Repeat Current Song")) {
+                    int startRepeatedSong = albumSource.getStartRepeatedSong();
+                    int indexRepeatedSong = albumSource.getIndexRepeatedSong();
+                    int totalPlayed = albumSource.getTotalPlayed();
+                    int repeatedSongDuration = albumSource.getCurrentAlbum().
+                            getSongList().get(indexRepeatedSong).getDuration();
+                    totalPlayed = totalPlayed - startRepeatedSong;
+                    totalPlayed = totalPlayed % repeatedSongDuration;
+                    totalPlayed = startRepeatedSong + totalPlayed;
+                    albumSource.setTotalPlayed(totalPlayed);
+                } else {
+                    if (albumSource.getTotalPlayed()
+                            >= albumSource.getCurrentAlbum().getDuration()) {
+                        userAudioSource = null;
+                    }
+                }
             }
         }
         if (command.getCommand().equals("search")) {
@@ -311,8 +338,21 @@ public class StoreNormalUsers extends StoreUsers{
                     setUserAudioSource(newPlaylistSource);
                     message = "Playback loaded successfully.";
                     break;
+                case "album":
+                    SourceAlbum newAlbumSource = new SourceAlbum();
+                    newAlbumSource.setAudioType("album");
+                    newAlbumSource.setLastTimestamp(this.timestamp);
+                    newAlbumSource.setPaused(false);
+                    newAlbumSource.setTotalPlayed(0);
+                    newAlbumSource.setRepeat("No Repeat");
+                    Album currAlbum = this.lastUserSelection.getSelectedAlbum();
+                    newAlbumSource.setCurrentAlbum(currAlbum);
+                    setUserAudioSource(newAlbumSource);
+                    message = "Playback loaded successfully.";
+                    break;
                 default:
                     message = "";
+                    break;
             }
 
         } else {
@@ -719,6 +759,41 @@ public class StoreNormalUsers extends StoreUsers{
                     return "Returned to previous track successfully. The current track is "
                             + currSongName + ".";
                 }
+            } else if (userAudioSource.getAudioType().equals("album")) {
+                SourceAlbum albumSource = (SourceAlbum) userAudioSource;
+                SongInput currSong = albumSource.getSongFromAlbum(timestamp);
+                String currSongName = albumSource.getCurrentSong();
+                int remainingCurrSongTime = albumSource.getSongRemainingTime(currSongName);
+                if (currSong.getDuration() == remainingCurrSongTime) {
+                    if (albumSource.getCurrentSongIndex() >= 1) {
+                        int newIndex = albumSource.getCurrentSongIndex() - 1;
+                        int newTotalPlayed = albumSource.getTotalPlayed();
+                        newTotalPlayed -= albumSource.getCurrentAlbum().
+                                getSongList().get(newIndex).getDuration();
+                        albumSource.setTotalPlayed(newTotalPlayed);
+                        currSongName = albumSource.getCurrentSong();
+                        albumSource.setPaused(false);
+                        return "Returned to previous track successfully. The current track is "
+                                + currSongName + ".";
+                    } else {
+                        albumSource.setTotalPlayed(0);
+                        currSongName = albumSource.getCurrentSong();
+                        albumSource.setPaused(false);
+                        return "Returned to previous track successfully. The current track is "
+                                + currSongName + ".";
+                    }
+                } else {
+                    int remainingSongTime = albumSource.getSongRemainingTime(currSongName);
+                    int newTotalPlayed = albumSource.getTotalPlayed();
+                    newTotalPlayed += remainingSongTime;
+                    newTotalPlayed -= currSong.getDuration();
+                    albumSource.setTotalPlayed(newTotalPlayed);
+                    currSongName = albumSource.getCurrentSong();
+                    albumSource.setPaused(false);
+                    return "Returned to previous track successfully. The current track is "
+                            + currSongName + ".";
+                }
+
             }
         } else {
             return "Please load a source before returning to the previous track.";
@@ -872,5 +947,24 @@ public class StoreNormalUsers extends StoreUsers{
     @Override
     public String printCurrentPage() {
         return currentPage.print(this);
+    }
+    @Override
+    public StoreUsers getNormal() {
+        return this;
+    }
+    @Override
+    public Album findAlbumByName(String albumName) {
+        for (Album currAlbum : DoCommand.getAllAlbums()) {
+            if (currAlbum.getName().equals(albumName)) {
+                return currAlbum;
+            }
+        }
+        return null;
+    }
+    @Override
+    public void deleteAllFiles() {
+        for (Playlist currPlaylist : userPlaylistList) {
+            DoCommand.getAllPlaylists().remove(currPlaylist);
+        }
     }
 }
