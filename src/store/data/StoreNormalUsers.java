@@ -452,6 +452,26 @@ public class StoreNormalUsers extends StoreUsers{
                         newAudioStats.setPaused(audioPaused);
                     }
                     break;
+                case "album":
+                    audioRemainedTime = ((SourceAlbum) this.userAudioSource).updateAlbumSource(timestamp);
+                    if (audioRemainedTime == 0) {
+                        audioName = "";
+                    } else {
+                        audioName = ((SourceAlbum) userAudioSource).getCurrentSong();
+                    }
+                    audioRemainedTime = ((SourceAlbum) userAudioSource).getSongRemainingTime(audioName);
+                    newAudioStats.setRemainedTime(audioRemainedTime);
+                    newAudioStats.setName(audioName);
+                    audioRepeat = ((SourceAlbum) userAudioSource).getRepeat();
+                    newAudioStats.setRepeat(audioRepeat);
+                    newAudioStats.setShuffle(((SourceAlbum) userAudioSource).isShuffled());
+                    audioPaused = ((SourceAlbum) userAudioSource).isPaused();
+                    if (isStatusOffline()) {
+                        newAudioStats.setPaused(isPausedOffline);
+                    } else {
+                        newAudioStats.setPaused(audioPaused);
+                    }
+                    break;
                 default:
                     return null;
             }
@@ -614,6 +634,35 @@ public class StoreNormalUsers extends StoreUsers{
                     message = "Like registered successfully.";
                 }
 
+            } else if (this.userAudioSource.getAudioType().equals("album")) {
+                SongInput currentlyPlayedSong = ((SourceAlbum) userAudioSource).getSongFromAlbum(command.getTimestamp());
+                if (likedSongs.contains(currentlyPlayedSong)) {
+                    likedSongs.remove(currentlyPlayedSong);
+                    for (SongsByLikes currSong : globalLikedSongs) {
+                        if (currSong.getSong().equals(currentlyPlayedSong)) {
+                            currSong.setLikeCount(currSong.getLikeCount() - 1);
+                        }
+                    }
+                    for (Album currAlbum : DoCommand.getAllAlbums()) {
+                        if (((SourceAlbum) userAudioSource).getCurrentAlbum().getName().equals(currAlbum.getName())) {
+                            currAlbum.setTotalLikes(currAlbum.getTotalLikes() - 1);
+                        }
+                    }
+                    message = "Unlike registered successfully.";
+                } else {
+                    likedSongs.add(currentlyPlayedSong);
+                    for (SongsByLikes currSong : globalLikedSongs) {
+                        if (currSong.getSong().equals(currentlyPlayedSong)) {
+                            currSong.setLikeCount(currSong.getLikeCount() + 1);
+                        }
+                    }
+                    for (Album currAlbum : DoCommand.getAllAlbums()) {
+                        if (((SourceAlbum) userAudioSource).getCurrentAlbum().getName().equals(currAlbum.getName())) {
+                            currAlbum.setTotalLikes(currAlbum.getTotalLikes() + 1);
+                        }
+                    }
+                    message = "Like registered successfully.";
+                }
             } else {
                 message = "Loaded source is not a song.";
             }
@@ -674,10 +723,12 @@ public class StoreNormalUsers extends StoreUsers{
         if (userAudioSource != null) {
             if (userAudioSource.getAudioType().equals("playlist")) {
                 SourcePlaylist playlistSource = (SourcePlaylist) userAudioSource;
-                String message = playlistSource.doShuffle(seed);
-                return message;
+                return playlistSource.doShuffle(seed);
+            } else if (userAudioSource.getAudioType().equals("album")) {
+                SourceAlbum albumSource = (SourceAlbum) userAudioSource;
+                return albumSource.doShuffle(seed);
             } else {
-                return "The loaded source is not a playlist.";
+                return "The loaded source is not a playlist or an album.";
             }
         } else {
             return "Please load a source before using the shuffle function.";

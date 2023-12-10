@@ -2,6 +2,7 @@ package command.input;
 
 import audio.source.SourcePlaylist;
 import fileio.input.LibraryInput;
+import lombok.Getter;
 import output.*;
 import store.data.*;
 
@@ -9,36 +10,33 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DoCommand {
+    @Getter
     private static List<Playlist> allPlaylists = new ArrayList<>();
+    @Getter
     private static List<Album> allAlbums = new ArrayList<>();
+    @Getter
     private static List<StoreUsers> allUsers;
-
-    public static List<Playlist> getAllPlaylists() {
-        return allPlaylists;
-    }
+    @Getter
+    private static List<SongsByLikes> allSongsByLikes;
 
     public static void setAllPlaylists(final List<Playlist> allPlaylists) {
         DoCommand.allPlaylists = allPlaylists;
-    }
-
-    public static List<Album> getAllAlbums() {
-        return allAlbums;
     }
 
     public static void setAllAlbums(List<Album> allAlbums) {
         DoCommand.allAlbums = allAlbums;
     }
 
-    public static List<StoreUsers> getAllUsers() {
-        return allUsers;
-    }
-
     public static void setAllUsers(List<StoreUsers> allUsers) {
         DoCommand.allUsers = allUsers;
     }
 
+    public static void setAllSongsByLikes(List<SongsByLikes> allSongsByLikes) {
+        DoCommand.allSongsByLikes = allSongsByLikes;
+    }
+
     private static void doSearch(final StoreUsers currUser, final Command currCommand,
-                          final List<Output> outputList) {
+                                 final List<Output> outputList) {
         if (currCommand.getTimestamp() == 1021) {
             List<Playlist> debug = DoCommand.getAllPlaylists();
             int ksjcndkf = 777;
@@ -100,6 +98,10 @@ public class DoCommand {
 
     private static void doStatus(final Command currCommand, final StoreUsers currUser,
                           final List<Output> outputList) {
+        if (currCommand.getTimestamp() == 446) {
+            List<Playlist> debug = DoCommand.getAllPlaylists();
+            int ksjcndkf = 777;
+        }
         currUser.updateAudioSource(currCommand);
         StatusOutput newStatusNode = new StatusOutput();
         newStatusNode.initStatusFromCommand(currCommand);
@@ -167,9 +169,10 @@ public class DoCommand {
         LibraryInput library = LibraryInput.getInstance();
         allPlaylists = new ArrayList<>();
         allAlbums = new ArrayList<>();
-        List<SongsByLikes> allSongsByLikes = new ArrayList<>();
+        List<SongsByLikes> SongsByLikes = new ArrayList<>();
         SongsByLikes aux = new SongsByLikes();
-        aux.initSongByLikeList(allSongsByLikes, library.getSongs());
+        aux.initSongByLikeList(SongsByLikes, library.getSongs());
+        allSongsByLikes = SongsByLikes;
         List<Output> ignoredOuts = new ArrayList<>();
 //        List<Album> debug = DoCommand.getAllAlbums();
         for (Command currCommand : commands) {
@@ -318,6 +321,12 @@ public class DoCommand {
                     top5SongsOutput.setSongResult(allSongsByLikes);
                     outputList.add(top5SongsOutput);
                     break;
+                case "getTop5Albums":
+                    StatisticsOutput top5AlbumsOutput = new StatisticsOutput();
+                    top5AlbumsOutput.initStatisticsFromCommand(currCommand);
+                    top5AlbumsOutput.setAlbumResult(allAlbums);
+                    outputList.add(top5AlbumsOutput);
+                    break;
                 case "getAllUsers":
                     StatisticsOutput allUsersOutput = new StatisticsOutput();
                     allUsersOutput.initStatisticsFromCommand(currCommand);
@@ -421,6 +430,14 @@ public class DoCommand {
                 case "addEvent":
                     if (currUser != null) {
                         currCommand.setOutputMessage(currUser.addEvent(currCommand));
+                    } else {
+                        currCommand.setOutputMessage("The username " + currCommand.getUsername() + " doesn't exist.");
+                    }
+                    outputList.add(currCommand.getOutput());
+                    break;
+                case "removeEvent":
+                    if (currUser != null) {
+                        currCommand.setOutputMessage(currUser.removeEvent(currCommand));
                     } else {
                         currCommand.setOutputMessage("The username " + currCommand.getUsername() + " doesn't exist.");
                     }

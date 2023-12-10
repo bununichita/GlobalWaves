@@ -103,6 +103,9 @@ public class ParseCommand {
                 case "getTop5Songs":
                     parsedCommands.add(new StatisticsCommand(nonParsedCommand));
                     break;
+                case "getTop5Albums":
+                    parsedCommands.add(new StatisticsCommand(nonParsedCommand));
+                    break;
                 case "getAllUsers":
                     parsedCommands.add(new StatisticsCommand(nonParsedCommand));
                     break;
@@ -143,6 +146,9 @@ public class ParseCommand {
                     parsedCommands.add(new UserCommand(nonParsedCommand));
                     break;
                 case "addEvent":
+                    parsedCommands.add(new UserCommand(nonParsedCommand));
+                    break;
+                case "removeEvent":
                     parsedCommands.add(new UserCommand(nonParsedCommand));
                     break;
                 case "addMerch":

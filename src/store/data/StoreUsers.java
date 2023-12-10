@@ -378,6 +378,9 @@ public abstract class StoreUsers {
     public String addEvent(Command command) {
         return this.username + " is not an artist.";
     }
+    public String removeEvent(Command command) {
+        return this.username + " is not an artist.";
+    }
     public String addMerch(Command command) {
         return this.username + " is not an artist.";
     }

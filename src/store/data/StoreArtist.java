@@ -99,6 +99,8 @@ public class StoreArtist extends StoreUsers{
                 }
                 if (existingSong == 0) {
                     LibraryInput.getInstance().getSongs().add(currSong);
+                    SongsByLikes newSongByLikes = new SongsByLikes(currSong);
+                    DoCommand.getAllSongsByLikes().add(newSongByLikes);
                 }
             }
             return super.username + " has added new album successfully.";
@@ -126,6 +128,15 @@ public class StoreArtist extends StoreUsers{
         }
         if (album != null) {
             if (validDeleteAlbum(album)) {
+                artistAlbumList.remove(album);
+                for (SongInput currSong : album.getSongList()) {
+                    LibraryInput.getInstance().getSongs().remove(currSong);
+                    for (SongsByLikes currSongByLikes : DoCommand.getAllSongsByLikes()) {
+                        if (currSongByLikes.getSong().equals(currSong)) {
+                            DoCommand.getAllSongsByLikes().remove(currSongByLikes);
+                        }
+                    }
+                }
                 return this.username + " deleted the album successfully.";
             } else {
                 return this.username + " can't delete this album.";
@@ -191,6 +202,17 @@ public class StoreArtist extends StoreUsers{
         newEvent.setDate(currCommand.getDate());
         eventList.add(newEvent);
         return super.username + " has added new event successfully.";
+    }
+    @Override
+    public String removeEvent(Command command) {
+        UserCommand currCommand = (UserCommand) command;
+        for (Event currEvent : eventList) {
+            if (currCommand.getName().equals(currEvent.getName())) {
+                eventList.remove(currEvent);
+                return super.username + " deleted the event successfully.";
+            }
+        }
+        return username + " doesn't have an event with the given name.";
     }
     @Override
     public String addMerch(Command command) {

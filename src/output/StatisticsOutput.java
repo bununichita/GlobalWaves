@@ -1,6 +1,7 @@
 package output;
 
 import command.input.Command;
+import store.data.Album;
 import store.data.Playlist;
 import store.data.SongsByLikes;
 import store.data.StoreUsers;
@@ -61,8 +62,6 @@ public class StatisticsOutput extends Output {
      * @param allSongs global playlist list
      */
     public void setSongResult(final List<SongsByLikes> allSongs) {
-//        List<SongsByLikes> sortedSongs = new ArrayList<>();
-//        sortedSongs.addAll(allSongs);
         Collections.sort(allSongs, Comparator.comparingInt(SongsByLikes::getLikeCount).reversed());
         int index = 0;
         for (SongsByLikes currSong : allSongs) {
@@ -70,6 +69,17 @@ public class StatisticsOutput extends Output {
                 break;
             }
             localResult.add(currSong.getSong().getName());
+            index++;
+        }
+    }
+    public void setAlbumResult(final List<Album> allAlbums) {
+        Collections.sort(allAlbums, Comparator.comparingInt(Album::getTotalLikes).reversed());
+        int index = 0;
+        for (Album currAlbum : allAlbums) {
+            if (index == maxNumber) {
+                break;
+            }
+            localResult.add(currAlbum.getName());
             index++;
         }
     }

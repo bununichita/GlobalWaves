@@ -5246,7 +5246,13 @@
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6649,
-  "stats" : null
+  "stats" : {
+    "name" : "Soul Pandora",
+    "remainedTime" : 192,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "emily30",
@@ -5256,7 +5262,13 @@
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6659,
-  "stats" : null
+  "stats" : {
+    "name" : "Soul Pandora",
+    "remainedTime" : 187,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "emily30",
@@ -5275,7 +5287,7 @@
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6674,
-  "message" : "The loaded source is not a playlist."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -5285,7 +5297,13 @@
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6679,
-  "stats" : null
+  "stats" : {
+    "name" : "Soul Pandora",
+    "remainedTime" : 187,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -5294,12 +5312,18 @@
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6934,
-  "stats" : null
+  "stats" : {
+    "name" : "Soul Pandora",
+    "remainedTime" : 187,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 6935,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -5320,7 +5344,13 @@
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6960,
-  "stats" : null
+  "stats" : {
+    "name" : "Crescendo Twilight",
+    "remainedTime" : 225,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "frank21",
@@ -5330,7 +5360,13 @@
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6970,
-  "stats" : null
+  "stats" : {
+    "name" : "Crescendo Twilight",
+    "remainedTime" : 220,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "frank21",
@@ -5349,7 +5385,7 @@
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6985,
-  "message" : "The loaded source is not a playlist."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -5359,7 +5395,13 @@
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6990,
-  "stats" : null
+  "stats" : {
+    "name" : "Crescendo Twilight",
+    "remainedTime" : 220,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -5368,12 +5410,18 @@
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 7245,
-  "stats" : null
+  "stats" : {
+    "name" : "Crescendo Twilight",
+    "remainedTime" : 220,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 7246,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -5394,7 +5442,13 @@
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7271,
-  "stats" : null
+  "stats" : {
+    "name" : "Harmony Love",
+    "remainedTime" : 292,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "grace25",
@@ -5404,7 +5458,13 @@
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7281,
-  "stats" : null
+  "stats" : {
+    "name" : "Harmony Love",
+    "remainedTime" : 287,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "grace25",
@@ -5423,7 +5483,7 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 7296,
-  "message" : "The loaded source is not a playlist."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jsimpson",
@@ -5433,7 +5493,13 @@
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7301,
-  "stats" : null
+  "stats" : {
+    "name" : "Harmony Love",
+    "remainedTime" : 287,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -5442,12 +5508,18 @@
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7556,
-  "stats" : null
+  "stats" : {
+    "name" : "Harmony Love",
+    "remainedTime" : 287,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 7557,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -5567,7 +5639,13 @@
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7893,
-  "stats" : null
+  "stats" : {
+    "name" : "Night Aurora",
+    "remainedTime" : 270,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "irene33",
@@ -5577,7 +5655,13 @@
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7903,
-  "stats" : null
+  "stats" : {
+    "name" : "Night Aurora",
+    "remainedTime" : 265,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "switchConnectionStatus",
   "user" : "irene33",
@@ -5596,7 +5680,7 @@
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 7918,
-  "message" : "The loaded source is not a playlist."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "mccarthyluis",
@@ -5606,7 +5690,13 @@
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7923,
-  "stats" : null
+  "stats" : {
+    "name" : "Night Aurora",
+    "remainedTime" : 265,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -5615,12 +5705,18 @@
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 8178,
-  "stats" : null
+  "stats" : {
+    "name" : "Night Aurora",
+    "remainedTime" : 265,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 8179,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -8797,7 +8893,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -8806,7 +8902,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -8857,7 +8953,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -8866,7 +8962,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -8917,7 +9013,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -8926,7 +9022,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -8951,7 +9047,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -8977,7 +9073,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -8986,12 +9082,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9001,7 +9097,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9011,7 +9107,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9037,7 +9133,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -9046,12 +9142,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9061,7 +9157,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9071,7 +9167,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9097,7 +9193,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -9106,12 +9202,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9121,7 +9217,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9157,7 +9253,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -9166,7 +9262,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9191,7 +9287,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9232,7 +9328,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9242,7 +9338,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -9278,7 +9374,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -9287,7 +9383,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -9521,7 +9617,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -9530,7 +9626,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -9555,7 +9651,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9596,7 +9692,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9606,7 +9702,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9616,7 +9712,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -9642,7 +9738,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -9651,12 +9747,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9666,7 +9762,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9676,7 +9772,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9717,7 +9813,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9727,7 +9823,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10440,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9763,7 +9859,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -9772,7 +9868,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -9797,7 +9893,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -9838,7 +9934,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9848,7 +9944,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -9884,7 +9980,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -9893,7 +9989,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10066,7 +10162,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -10075,7 +10171,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -10161,7 +10257,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10187,7 +10283,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -10196,12 +10292,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10211,7 +10307,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10221,7 +10317,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -10262,7 +10358,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10272,7 +10368,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10282,7 +10378,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10323,7 +10419,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10333,7 +10429,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10540,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -10369,7 +10465,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -10378,7 +10474,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -10403,7 +10499,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -10429,7 +10525,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -10438,12 +10534,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -10453,7 +10549,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -10489,7 +10585,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -10498,7 +10594,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -10549,7 +10645,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -10558,7 +10654,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -10609,7 +10705,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -10618,7 +10714,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -10730,7 +10826,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -10739,7 +10835,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -10764,7 +10860,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10805,7 +10901,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10815,7 +10911,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10825,7 +10921,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -10866,7 +10962,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10876,7 +10972,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10886,7 +10982,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10912,7 +11008,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -10921,12 +11017,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10936,7 +11032,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11007,7 +11103,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -11033,7 +11129,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -11042,12 +11138,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11057,7 +11153,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11093,7 +11189,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -11102,7 +11198,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11153,7 +11249,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -11162,7 +11258,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11370,7 +11466,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11396,7 +11492,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -11405,12 +11501,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -11420,7 +11516,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11430,7 +11526,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -11471,7 +11567,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11481,7 +11577,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11491,7 +11587,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11517,7 +11613,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -11526,12 +11622,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11541,7 +11637,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11577,7 +11673,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -11586,7 +11682,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -11611,7 +11707,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -11652,7 +11748,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11662,7 +11758,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11698,7 +11794,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -11707,7 +11803,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -11758,7 +11854,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -11767,7 +11863,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -11818,7 +11914,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -11827,7 +11923,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -11939,7 +12035,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -11948,7 +12044,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -11973,7 +12069,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11999,7 +12095,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -12008,12 +12104,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12023,7 +12119,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12033,7 +12129,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12074,7 +12170,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12084,7 +12180,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12094,7 +12190,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12120,7 +12216,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -12129,12 +12225,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12144,7 +12240,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12180,7 +12276,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -12189,7 +12285,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -12214,7 +12310,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -12255,7 +12351,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -12265,7 +12361,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -12301,7 +12397,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -12310,7 +12406,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -12361,7 +12457,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -12370,7 +12466,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -12482,7 +12578,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -12491,7 +12587,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -12542,7 +12638,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -12551,7 +12647,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -12576,7 +12672,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12602,7 +12698,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -12611,12 +12707,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12626,7 +12722,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12636,7 +12732,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -12662,7 +12758,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -12671,12 +12767,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12686,7 +12782,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12696,7 +12792,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12722,7 +12818,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -12731,12 +12827,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12746,7 +12842,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12817,7 +12913,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -12843,7 +12939,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -12852,12 +12948,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -12867,7 +12963,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -12903,7 +12999,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -12912,7 +13008,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13024,7 +13120,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -13033,7 +13129,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13084,7 +13180,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -13093,7 +13189,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -13144,7 +13240,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -13153,7 +13249,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13178,7 +13274,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13204,7 +13300,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -13213,12 +13309,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13228,7 +13324,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13238,7 +13334,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -13264,7 +13360,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -13273,12 +13369,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13288,7 +13384,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13298,7 +13394,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13339,7 +13435,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13349,7 +13445,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11040,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13385,7 +13481,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -13394,7 +13490,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -13419,7 +13515,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13460,7 +13556,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13470,7 +13566,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -13506,7 +13602,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -13515,7 +13611,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -13566,7 +13662,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -13575,7 +13671,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -13626,7 +13722,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -13635,7 +13731,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -13747,7 +13843,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -13756,7 +13852,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -13781,7 +13877,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13807,7 +13903,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -13816,12 +13912,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13831,7 +13927,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13841,7 +13937,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -13867,7 +13963,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -13876,12 +13972,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13891,7 +13987,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13901,7 +13997,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13942,7 +14038,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13952,7 +14048,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11140,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13988,7 +14084,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -13997,7 +14093,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -14022,7 +14118,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14048,7 +14144,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -14057,12 +14153,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14072,7 +14168,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14108,7 +14204,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -14117,7 +14213,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -14229,7 +14325,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -14238,7 +14334,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -14350,7 +14446,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -14359,7 +14455,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -14384,7 +14480,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14410,7 +14506,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -14419,12 +14515,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -14434,7 +14530,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14444,7 +14540,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -14485,7 +14581,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14495,7 +14591,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14505,7 +14601,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14531,7 +14627,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -14540,12 +14636,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14555,7 +14651,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14626,7 +14722,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14652,7 +14748,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -14661,12 +14757,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14676,7 +14772,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14712,7 +14808,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -14721,7 +14817,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -14772,7 +14868,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -14781,7 +14877,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -14832,7 +14928,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -14841,7 +14937,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -14892,7 +14988,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -14901,7 +14997,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -14952,7 +15048,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -14961,7 +15057,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -14986,7 +15082,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15012,7 +15108,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -15021,12 +15117,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15036,7 +15132,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15046,7 +15142,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15072,7 +15168,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -15081,12 +15177,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15096,7 +15192,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15106,7 +15202,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15132,7 +15228,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -15141,12 +15237,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15156,7 +15252,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -15192,7 +15288,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -15201,7 +15297,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -15226,7 +15322,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15252,7 +15348,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -15261,12 +15357,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -15276,7 +15372,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -15312,7 +15408,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -15321,7 +15417,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -15372,7 +15468,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -15381,7 +15477,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -15432,7 +15528,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -15441,7 +15537,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -15492,7 +15588,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -15501,7 +15597,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -15552,7 +15648,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -15561,7 +15657,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -15586,7 +15682,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15612,7 +15708,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "emily30",
@@ -15621,12 +15717,12 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15636,7 +15732,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15646,7 +15742,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -15672,7 +15768,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -15681,12 +15777,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15696,7 +15792,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15706,7 +15802,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15732,7 +15828,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -15741,12 +15837,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15756,7 +15852,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -15792,7 +15888,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -15801,7 +15897,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -15826,7 +15922,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15852,7 +15948,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -15861,12 +15957,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -15876,7 +15972,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16095,7 +16191,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -16104,7 +16200,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16155,7 +16251,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -16164,7 +16260,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16189,7 +16285,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16230,7 +16326,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -16240,7 +16336,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16250,7 +16346,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16276,7 +16372,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -16285,12 +16381,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16300,7 +16396,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16310,7 +16406,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16336,7 +16432,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -16345,12 +16441,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16360,7 +16456,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16396,7 +16492,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -16405,7 +16501,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -16430,7 +16526,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -16456,7 +16552,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "irene33",
@@ -16465,12 +16561,12 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16480,7 +16576,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16516,7 +16612,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -16525,7 +16621,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -16576,7 +16672,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "alice22",
@@ -16585,7 +16681,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "alice22",
@@ -16636,7 +16732,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "bob35",
@@ -16645,7 +16741,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "bob35",
@@ -16696,7 +16792,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -16705,7 +16801,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -16756,7 +16852,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "david27",
@@ -16765,7 +16861,7 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "david27",
@@ -16790,7 +16886,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16831,7 +16927,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -16841,7 +16937,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16851,7 +16947,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -16877,7 +16973,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -16886,12 +16982,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16901,7 +16997,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16911,7 +17007,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16937,7 +17033,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -16946,12 +17042,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16961,7 +17057,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16997,7 +17093,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -17006,7 +17102,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -17031,7 +17127,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17072,7 +17168,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17082,7 +17178,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -17118,7 +17214,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -17127,7 +17223,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "jack29",
@@ -17300,7 +17396,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "carol19",
@@ -17309,7 +17405,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "carol19",
@@ -17395,7 +17491,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17436,7 +17532,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora - jacobdean]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17446,7 +17542,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17456,7 +17552,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17482,7 +17578,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "frank21",
@@ -17491,12 +17587,12 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight - jacobdean, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17506,7 +17602,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17516,7 +17612,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17542,7 +17638,7 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "grace25",
@@ -17551,12 +17647,12 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love - jsimpson]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17566,7 +17662,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17602,7 +17698,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "henry26",
@@ -17611,7 +17707,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "printCurrentPage",
   "user" : "henry26",
@@ -17636,7 +17732,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -17677,7 +17773,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora - mccarthyluis, The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17687,7 +17783,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -17928,7 +18024,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -17944,7 +18040,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -17954,7 +18050,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17964,7 +18060,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17980,7 +18076,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -17990,7 +18086,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -18000,7 +18096,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18072,7 +18168,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -18268,7 +18364,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18278,7 +18374,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18288,7 +18384,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -18304,7 +18400,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18314,7 +18410,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -18324,7 +18420,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -18360,7 +18456,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18432,7 +18528,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -18648,7 +18744,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -18684,7 +18780,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -18700,7 +18796,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18710,7 +18806,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -18720,7 +18816,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18772,7 +18868,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18782,7 +18878,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -18792,7 +18888,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19008,7 +19104,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19024,7 +19120,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -19034,7 +19130,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -19044,7 +19140,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -19080,7 +19176,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -19152,7 +19248,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19368,7 +19464,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19384,7 +19480,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19394,7 +19490,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -19404,7 +19500,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -19420,7 +19516,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -19430,7 +19526,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -19440,7 +19536,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -19512,7 +19608,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19728,7 +19824,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19744,7 +19840,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -19754,7 +19850,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -19764,7 +19860,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -19780,7 +19876,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19790,7 +19886,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -19800,7 +19896,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -19852,7 +19948,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19862,7 +19958,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -19872,7 +19968,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20088,7 +20184,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -20104,7 +20200,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20114,7 +20210,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20124,7 +20220,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20140,7 +20236,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20150,7 +20246,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -20160,7 +20256,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20212,7 +20308,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20222,7 +20318,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20232,7 +20328,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20448,7 +20544,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -20464,7 +20560,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -20474,7 +20570,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20484,7 +20580,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20500,7 +20596,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20510,7 +20606,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -20520,7 +20616,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20592,7 +20688,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20788,7 +20884,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20798,7 +20894,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -20808,7 +20904,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -20844,7 +20940,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20860,7 +20956,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20870,7 +20966,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -20880,7 +20976,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20932,7 +21028,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20942,7 +21038,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20952,7 +21048,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -21148,7 +21244,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21158,7 +21254,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -21168,7 +21264,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -21184,7 +21280,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -21194,7 +21290,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -21204,7 +21300,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -21240,7 +21336,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -21292,7 +21388,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21302,7 +21398,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -21312,7 +21408,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -21528,7 +21624,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -21544,7 +21640,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -21554,7 +21650,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -21564,7 +21660,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -21600,7 +21696,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -21672,7 +21768,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -21888,7 +21984,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -21904,7 +22000,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21914,7 +22010,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -21924,7 +22020,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -21940,7 +22036,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21950,7 +22046,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -21960,7 +22056,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -22012,7 +22108,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22022,7 +22118,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -22032,7 +22128,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -22228,7 +22324,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -22238,7 +22334,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22248,7 +22344,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -22284,7 +22380,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -22300,7 +22396,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -22310,7 +22406,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -22320,7 +22416,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -22392,7 +22488,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -22588,7 +22684,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22598,7 +22694,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22608,7 +22704,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -22624,7 +22720,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22634,7 +22730,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -22644,7 +22740,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -22660,7 +22756,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -22670,7 +22766,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -22680,7 +22776,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -22752,7 +22848,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -22948,7 +23044,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -22958,7 +23054,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22968,7 +23064,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Pandora]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -23004,7 +23100,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Crescendo Twilight, Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -23020,7 +23116,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -23030,7 +23126,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -23040,7 +23136,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Harmony Love]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -23092,7 +23188,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -23102,7 +23198,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -23112,7 +23208,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Night Aurora, The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -25648,7 +25744,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 14800,
-  "result" : [ ]
+  "result" : [ "Soul Pandora" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -25668,7 +25764,7 @@
   "command" : "showPreferredSongs",
   "user" : "frank21",
   "timestamp" : 14810,
-  "result" : [ "Love Story" ]
+  "result" : [ "Crescendo Twilight", "Love Story" ]
 }, {
   "command" : "showPlaylists",
   "user" : "grace25",
@@ -25688,7 +25784,7 @@
   "command" : "showPreferredSongs",
   "user" : "grace25",
   "timestamp" : 14820,
-  "result" : [ ]
+  "result" : [ "Harmony Love" ]
 }, {
   "command" : "showPlaylists",
   "user" : "henry26",
@@ -25728,7 +25824,7 @@
   "command" : "showPreferredSongs",
   "user" : "irene33",
   "timestamp" : 14840,
-  "result" : [ "The Man" ]
+  "result" : [ "Night Aurora", "The Man" ]
 }, {
   "command" : "showPlaylists",
   "user" : "jack29",
@@ -25761,4 +25857,8 @@
   "command" : "getTop5Songs",
   "timestamp" : 14850,
   "result" : [ "Don't", "Whatever You Need", "Start Me Up", "The Man", "Delicate" ]
+}, {
+  "command" : "getTop5Albums",
+  "timestamp" : 14850,
+  "result" : [ "Groovy Harmonies", "Bad Dirt", "Bad Dreams", "Teen Technology", "Electric Funeral " ]
 } ]
