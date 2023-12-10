@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a033a898-d44a-4e93-b863-5a79a0f2214f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/libraries/checkstyle_8_36_2_all.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/etapa1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/library/library.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test01_searchBar_songs_podcasts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test02_playPause_song.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test03_like_create_addRemove.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test04_like_create_addRemove_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test05_playPause_playlist_podcast.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test06_playPause_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test07_repeat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test08_repeat_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test09_shuffle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test10_shuffle_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test11_next_prev_forward_backward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test12_next_prev_forward_backward_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test13_searchPlaylist_follow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test14_searchPlaylist_follow_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test15_statistics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test16_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/input/test17_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/lib/jackson-annotations-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/lib/jackson-core-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/lib/jackson-databind-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/lib/lombok.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test01_searchBar_songs_podcasts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test02_playPause_song.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test03_like_create_addRemove.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test04_like_create_addRemove_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test05_playPause_playlist_podcast.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test06_playPause_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test07_repeat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test08_repeat_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test09_shuffle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test10_shuffle_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test11_next_prev_forward_backward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test12_next_prev_forward_backward_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test13_searchPlaylist_follow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test14_searchPlaylist_follow_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test15_statistics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test16_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/ref/ref_test17_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/checker/Checker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/checker/CheckerConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/checker/Checkstyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/checker/checkstyle-8.36.2-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/checker/checkstyle.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/checker/poo_checks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/fileio/input/EpisodeInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/fileio/input/LibraryInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/fileio/input/PodcastInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/fileio/input/SongInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/fileio/input/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etapa1/src/main/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etapa2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/library/library.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test00_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test01_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test02_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test03_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test04_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test05_etapa2_playPause_playlist_podcast.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test06_etapa2_repeat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test07_etapa2_repeat_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test08_etapa2_searchHost_printCurrentPage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test09_etapa2_shuffle_album.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test10_etapa2_next_prev_forward_backward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test11_etapa2_shuffle_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test12_etapa2_next_prev_forward_backward_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test13_statistics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test14_etapa2_delete_cases.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test15_etapa2_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test16_etapa2_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/checkstyle-8.36.2-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jackson-annotations-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jackson-core-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jackson-databind-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lombok.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oficial.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/audio/source/SourceAlbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/audio/source/SourceAudio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/audio/source/SourcePlaylist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/audio/source/SourcePodcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/audio/source/SourceSong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/checker/Checker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/checker/CheckerConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/checker/Checkstyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/checker/checkstyle.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/checker/poo_checks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/AdminCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/DoCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/InitCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/LoadCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/ParseCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/PlayPauseCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/PlayerCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/PlaylistCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/SearchCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/SelectCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/ShuffleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/StatisticsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/StatusCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/command/input/UserCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/EpisodeInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/LibraryInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/PodcastInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/SongInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/fileio/input/UserInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/main/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/main/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/AdminOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/LoadOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/Output.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/PlayPauseOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/PlayerOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/PlaylistOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/SearchOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/SelectOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/StatisticsOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/Stats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/StatusOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/output/UserOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/InitUserList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/Playlist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/SongsByLikes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/StoreAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/StoreArtist$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/StoreArtist$Merch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/StoreArtist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/StoreHost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/StoreNormalUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/StoreUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/UpdateUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/UserPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/store/data/UserSelected.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/user/page/ArtistPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/user/page/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/user/page/HostPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/user/page/LikedContentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/etapa2/user/page/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test00_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test01_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test02_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test03_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test04_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test05_etapa2_playPause_playlist_podcast.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test06_etapa2_repeat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test07_etapa2_repeat_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test08_etapa2_searchHost_printCurrentPage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test09_etapa2_shuffle_album.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test10_etapa2_next_prev_forward_backward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test11_etapa2_shuffle_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test12_etapa2_next_prev_forward_backward_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test13_statistics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test14_etapa2_delete_cases.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test15_etapa2_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/ref_test16_etapa2_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test00_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test01_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test02_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test03_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test04_etapa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test05_etapa2_playPause_playlist_podcast.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test06_etapa2_repeat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test07_etapa2_repeat_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test08_etapa2_searchHost_printCurrentPage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test09_etapa2_shuffle_album.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test10_etapa2_next_prev_forward_backward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test11_etapa2_shuffle_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test12_etapa2_next_prev_forward_backward_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test13_statistics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test14_etapa2_delete_cases.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test15_etapa2_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test16_etapa2_complex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/source/SourceAlbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/source/SourceAudio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/source/SourcePlaylist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/source/SourcePodcast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/source/SourceSong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/Checker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/CheckerConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/Checkstyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checkstyle.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/poo_checks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/AdminCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/DoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/InitCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/LoadCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/ParseCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/PlayPauseCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/PlayerCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/PlaylistCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/SearchCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/SelectCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/ShuffleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/StatisticsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/StatusCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/input/UserCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/EpisodeInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/LibraryInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/PodcastInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/SongInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/input/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/AdminOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/LoadOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/Output.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/PlayPauseOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/PlayerOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/PlaylistOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/SearchOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/SelectOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/StatisticsOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/StatusOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/UserOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/InitUserList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/Playlist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/SongsByLikes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/StoreAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/StoreArtist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/StoreHost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/StoreNormalUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/StoreUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/UpdateUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/UserPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/data/UserSelected.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/page/ArtistPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/page/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/page/HostPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/page/LikedContentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/page/Page.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2Z5FSPBTbXgHdNu8j6gg9jmF97R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/bunun/Documents/poo_stage2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "two.files.diff.last.used.file": "C:/Users/bunun/Documents/poo_stage2/etapa2/ref/ref_test03_etapa2.json",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="etapa2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a033a898-d44a-4e93-b863-5a79a0f2214f" name="Changes" comment="" />
+      <created>1701704032654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701704032654</updated>
+      <workItem from="1701704033658" duration="128300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="37" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/audio/source/SourceAlbum.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
