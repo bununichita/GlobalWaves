@@ -504,11 +504,10 @@ public class StoreNormalUsers extends StoreUsers{
     /**
      * Method that creates a new playlist for this user
      * @param command current command
-     * @param allPlaylist global playlist list
      * @return output message for createPlaylist command
      */
-    public String createPlaylist(final PlaylistCommand command,
-                                 final List<Playlist> allPlaylist) {
+    public String createPlaylist(final PlaylistCommand command) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
         for (Playlist currPlaylist : userPlaylistList) {
             if (currPlaylist.getName().equals(command.getPlaylistName())) {
                 return "A playlist with the same name already exists.";
@@ -518,18 +517,16 @@ public class StoreNormalUsers extends StoreUsers{
         newPlaylist.setName(command.getPlaylistName());
         newPlaylist.setOwner(this.getUsername());
         userPlaylistList.add(newPlaylist);
-        allPlaylist.add(newPlaylist);
+        statisticsData.getAllPlaylists().add(newPlaylist);
         return "Playlist created successfully.";
     }
 
     /**
      *
      * @param command current command
-     * @param allPlaylist global playlist list
      * @return output message for addRemoveInPlaylist command
      */
-    public String addRemoveInPlaylist(final PlaylistCommand command,
-                                      final List<Playlist> allPlaylist) {
+    public String addRemoveInPlaylist(final PlaylistCommand command) {
         String message;
         if (this.userAudioSource != null) {
             if (this.userAudioSource.getAudioType().equals("song")) {
@@ -585,11 +582,11 @@ public class StoreNormalUsers extends StoreUsers{
     /**
      * Method that updates the user likedSongs list of the player and global list of songs
      * @param command current command
-     * @param globalLikedSongs global list of songs
      * @return output message for Like command
      */
-    public String userLikeUnlike(final PlaylistCommand command,
-                                 final List<SongsByLikes> globalLikedSongs) {
+    public String userLikeUnlike(final PlaylistCommand command) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
+        List<SongsByLikes> globalLikedSongs = statisticsData.getAllSongsByLikes();
         String message;
         if (this.userAudioSource != null) {
             if (this.userAudioSource.getAudioType().equals("song")) {
@@ -643,7 +640,7 @@ public class StoreNormalUsers extends StoreUsers{
                             currSong.setLikeCount(currSong.getLikeCount() - 1);
                         }
                     }
-                    for (Album currAlbum : DoCommand.getAllAlbums()) {
+                    for (Album currAlbum : statisticsData.getAllAlbums()) {
                         if (((SourceAlbum) userAudioSource).getCurrentAlbum().getName().equals(currAlbum.getName())) {
                             currAlbum.setTotalLikes(currAlbum.getTotalLikes() - 1);
                         }
@@ -656,7 +653,7 @@ public class StoreNormalUsers extends StoreUsers{
                             currSong.setLikeCount(currSong.getLikeCount() + 1);
                         }
                     }
-                    for (Album currAlbum : DoCommand.getAllAlbums()) {
+                    for (Album currAlbum : statisticsData.getAllAlbums()) {
                         if (((SourceAlbum) userAudioSource).getCurrentAlbum().getName().equals(currAlbum.getName())) {
                             currAlbum.setTotalLikes(currAlbum.getTotalLikes() + 1);
                         }
@@ -694,7 +691,8 @@ public class StoreNormalUsers extends StoreUsers{
      * @return the playlist with the searched name
      */
     public Playlist findPlaylistByName(final String name) {
-        for (Playlist currPlaylist : DoCommand.getAllPlaylists()) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
+        for (Playlist currPlaylist : statisticsData.getAllPlaylists()) {
             if (currPlaylist.getName().equals(name)) {
                 return currPlaylist;
             }
@@ -1072,7 +1070,7 @@ public class StoreNormalUsers extends StoreUsers{
     }
     @Override
     public Album findAlbumByName(String albumName) {
-        for (Album currAlbum : DoCommand.getAllAlbums()) {
+        for (Album currAlbum : StatisticsData.getInstance().getAllAlbums()) {
             if (currAlbum.getName().equals(albumName)) {
                 return currAlbum;
             }
@@ -1082,7 +1080,7 @@ public class StoreNormalUsers extends StoreUsers{
     @Override
     public void deleteAllFiles() {
         for (Playlist currPlaylist : userPlaylistList) {
-            for (StoreUsers currUser : DoCommand.getAllUsers()) {
+            for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
                 if (currUser.getNormal() != null) {
                     StoreNormalUsers normalUser = (StoreNormalUsers) currUser;
                     if (normalUser.getFollowedPlaylists().contains(currPlaylist)) {
@@ -1090,7 +1088,7 @@ public class StoreNormalUsers extends StoreUsers{
                     }
                 }
             }
-            DoCommand.getAllPlaylists().remove(currPlaylist);
+            StatisticsData.getInstance().getAllPlaylists().remove(currPlaylist);
         }
         for (Playlist currPlaylist : followedPlaylists) {
             currPlaylist.setFollowers(currPlaylist.getFollowers() - 1);
@@ -1107,5 +1105,9 @@ public class StoreNormalUsers extends StoreUsers{
             return this.username + " accessed LikedContent successfully.";
         }
         return null;
+    }
+    @Override
+    public String getPageType() {
+        return currentPage.getType(this);
     }
 }

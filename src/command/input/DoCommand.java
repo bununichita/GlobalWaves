@@ -10,37 +10,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DoCommand {
-    @Getter
-    private static List<Playlist> allPlaylists = new ArrayList<>();
-    @Getter
-    private static List<Album> allAlbums = new ArrayList<>();
-    @Getter
-    private static List<StoreUsers> allUsers;
-    @Getter
-    private static List<SongsByLikes> allSongsByLikes;
 
-    public static void setAllPlaylists(final List<Playlist> allPlaylists) {
-        DoCommand.allPlaylists = allPlaylists;
-    }
 
-    public static void setAllAlbums(List<Album> allAlbums) {
-        DoCommand.allAlbums = allAlbums;
-    }
-
-    public static void setAllUsers(List<StoreUsers> allUsers) {
-        DoCommand.allUsers = allUsers;
-    }
-
-    public static void setAllSongsByLikes(List<SongsByLikes> allSongsByLikes) {
-        DoCommand.allSongsByLikes = allSongsByLikes;
-    }
 
     private static void doSearch(final StoreUsers currUser, final Command currCommand,
                                  final List<Output> outputList) {
-        if (currCommand.getTimestamp() == 1021) {
-            List<Playlist> debug = DoCommand.getAllPlaylists();
-            int ksjcndkf = 777;
-        }
+//        StatisticsData statisticsData = StatisticsData.getInstance();
+//        if (currCommand.getTimestamp() == 1021) {
+//            List<Playlist> debug = statisticsData.getAllPlaylists();
+//            int ksjcndkf = 777;
+//        }
         SearchOutput newSearchNode = new SearchOutput();
         newSearchNode.initSearchFromCommand((SearchCommand) currCommand);
         if (currUser.isStatusOffline()) {
@@ -56,7 +35,7 @@ public class DoCommand {
         }
 
 
-        newSearchNode.decideSearchType((SearchCommand) currCommand, allPlaylists);
+        newSearchNode.decideSearchType((SearchCommand) currCommand);
         newSearchNode.doMessage();
         outputList.add(newSearchNode);
 
@@ -84,6 +63,9 @@ public class DoCommand {
 
     private static void doLoad(final Command currCommand, final StoreUsers currUser,
                         final List<Output> outputList) {
+        if (currCommand.getTimestamp() == 740) {
+            int ksjcndkf = 777;
+        }
         LoadOutput newLoadNode = new LoadOutput();
         newLoadNode.initLoadFromCommand((LoadCommand) currCommand);
         String message = currUser.userLoad((LoadCommand) currCommand);
@@ -98,10 +80,11 @@ public class DoCommand {
 
     private static void doStatus(final Command currCommand, final StoreUsers currUser,
                           final List<Output> outputList) {
-        if (currCommand.getTimestamp() == 446) {
-            List<Playlist> debug = DoCommand.getAllPlaylists();
-            int ksjcndkf = 777;
-        }
+//        StatisticsData statisticsData = StatisticsData.getInstance();
+//        if (currCommand.getTimestamp() == 446) {
+//            List<Playlist> debug = statisticsData.getAllPlaylists();
+//            int ksjcndkf = 777;
+//        }
         currUser.updateAudioSource(currCommand);
         StatusOutput newStatusNode = new StatusOutput();
         newStatusNode.initStatusFromCommand(currCommand);
@@ -128,7 +111,7 @@ public class DoCommand {
         PlaylistOutput createPlaylistOutput = new PlaylistOutput();
         createPlaylistOutput.initPlaylistFromCommand(currCommand);
         String createPlaylistMessage =
-                currUser.createPlaylist((PlaylistCommand) currCommand, allPlaylists);
+                currUser.createPlaylist((PlaylistCommand) currCommand);
         createPlaylistOutput.setMessage(createPlaylistMessage);
         outputList.add(createPlaylistOutput);
     }
@@ -140,15 +123,14 @@ public class DoCommand {
         PlaylistOutput addRemoveOutput = new PlaylistOutput();
         addRemoveOutput.initPlaylistFromCommand(currCommand);
         String addRemoveMessage =
-                currUser.addRemoveInPlaylist((PlaylistCommand) currCommand,
-                        allPlaylists);
+                currUser.addRemoveInPlaylist((PlaylistCommand) currCommand);
         addRemoveOutput.setMessage(addRemoveMessage);
         outputList.add(addRemoveOutput);
     }
 
-    private static Object getOnlineUsers(List<StoreUsers> users) {
+    private static Object getOnlineUsers() {
         List<String> usersOnlineName = new ArrayList<>();
-        for (StoreUsers currUser: users) {
+        for (StoreUsers currUser: StatisticsData.getInstance().getAllUsers()) {
             String userToAdd = currUser.retUserNormalOnline();
             if (userToAdd != null) {
                 usersOnlineName.add(currUser.retUserNormalOnline());
@@ -161,18 +143,12 @@ public class DoCommand {
      * Verifies command type, then does the corresponding code
      * @param commands command list
      * @param outputList output list
-     * @param users all users
      */
-    public static void makeAllCommands(final List<Command> commands, final List<Output> outputList,
-                                final List<StoreUsers> users) {
-        allUsers = users;
+    public static void makeAllCommands(final List<Command> commands, final List<Output> outputList) {
+
         LibraryInput library = LibraryInput.getInstance();
-        allPlaylists = new ArrayList<>();
-        allAlbums = new ArrayList<>();
-        List<SongsByLikes> SongsByLikes = new ArrayList<>();
-        SongsByLikes aux = new SongsByLikes();
-        aux.initSongByLikeList(SongsByLikes, library.getSongs());
-        allSongsByLikes = SongsByLikes;
+//        List<SongsByLikes> SongsByLikes = new ArrayList<>();
+
         List<Output> ignoredOuts = new ArrayList<>();
 //        List<Album> debug = DoCommand.getAllAlbums();
         for (Command currCommand : commands) {
@@ -213,8 +189,7 @@ public class DoCommand {
                         likeMessage = currUser.getUsername() + " is offline.";
                     } else {
                         likeMessage =
-                                currUser.userLikeUnlike((PlaylistCommand) currCommand,
-                                        allSongsByLikes);
+                                currUser.userLikeUnlike((PlaylistCommand) currCommand);
                     }
                     likeOutput.setMessage(likeMessage);
                     outputList.add(likeOutput);
@@ -312,25 +287,25 @@ public class DoCommand {
                 case "getTop5Playlists":
                     StatisticsOutput top5PlaylistsOutput = new StatisticsOutput();
                     top5PlaylistsOutput.initStatisticsFromCommand(currCommand);
-                    top5PlaylistsOutput.setPlaylistResult(allPlaylists);
+                    top5PlaylistsOutput.setPlaylistResult();
                     outputList.add(top5PlaylistsOutput);
                     break;
                 case"getTop5Songs":
                     StatisticsOutput top5SongsOutput = new StatisticsOutput();
                     top5SongsOutput.initStatisticsFromCommand(currCommand);
-                    top5SongsOutput.setSongResult(allSongsByLikes);
+                    top5SongsOutput.setSongResult();
                     outputList.add(top5SongsOutput);
                     break;
                 case "getTop5Albums":
                     StatisticsOutput top5AlbumsOutput = new StatisticsOutput();
                     top5AlbumsOutput.initStatisticsFromCommand(currCommand);
-                    top5AlbumsOutput.setAlbumResult(allAlbums);
+                    top5AlbumsOutput.setAlbumResult();
                     outputList.add(top5AlbumsOutput);
                     break;
                 case "getAllUsers":
                     StatisticsOutput allUsersOutput = new StatisticsOutput();
                     allUsersOutput.initStatisticsFromCommand(currCommand);
-                    allUsersOutput.setAllPlayersResult(users);
+                    allUsersOutput.setAllPlayersResult();
                     outputList.add(allUsersOutput);
                     break;
                 case "switchConnectionStatus":
@@ -344,22 +319,22 @@ public class DoCommand {
 
                     break;
                 case "getOnlineUsers":
-                    currCommand.setResult(getOnlineUsers(users));
+                    currCommand.setResult(getOnlineUsers());
                     outputList.add(currCommand.getOutput());
                     break;
                 case "addUser":
                     StoreAdmin adminAdd = new StoreAdmin();
-                    currCommand.setOutputMessage(adminAdd.addUser(currCommand, users));
+                    currCommand.setOutputMessage(adminAdd.addUser(currCommand));
                     outputList.add(currCommand.getOutput());
                     break;
                 case "deleteUser":
 
-                    if (currCommand.getTimestamp() == 1380) {
+                    if (currCommand.getTimestamp() == 620) {
                         int csdc = 777;
                     }
 
                     StoreAdmin adminDelete = new StoreAdmin();
-                    currCommand.setOutputMessage(adminDelete.deleteUser(currCommand, users));
+                    currCommand.setOutputMessage(adminDelete.deleteUser(currCommand));
                     outputList.add(currCommand.getOutput());
                     break;
                 case "addAlbum":

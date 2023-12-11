@@ -12,9 +12,7 @@ import command.input.InitCommand;
 import command.input.ParseCommand;
 import fileio.input.LibraryInput;
 import output.Output;
-import store.data.InitUserList;
-import store.data.StoreNormalUsers;
-import store.data.StoreUsers;
+import store.data.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -107,13 +105,19 @@ public final class Main {
         commands = parseCommand.getParsedCommands();
 
         InitUserList initUserList = new InitUserList();
-        List<StoreUsers> users = initUserList.init(library.getUsers());
+//        List<StoreUsers> users = initUserList.init(library.getUsers());
+        StatisticsData statisticsData = StatisticsData.getInstance();
+        statisticsData.setAllUsers(initUserList.init(library.getUsers()));
+        SongsByLikes aux = new SongsByLikes();
+        aux.initSongByLikeList(statisticsData.getAllSongsByLikes(), library.getSongs());
 
         List<Output> outputList = new ArrayList<>();
 
-        DoCommand.makeAllCommands(commands, outputList, users);
-
-
+        DoCommand.makeAllCommands(commands, outputList);
+        statisticsData.getAllUsers().clear();
+        statisticsData.getAllPlaylists().clear();
+        statisticsData.getAllAlbums().clear();
+        statisticsData.getAllSongsByLikes().clear();
 
 
 

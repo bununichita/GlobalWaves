@@ -44,4 +44,8 @@ public class HostPage implements Page {
             return user.getUsername() + " is trying to access a non-existent page.";
         }
     }
+    @Override
+    public String getType(StoreNormalUsers user) {
+        return "HostPage";
+    }
 }

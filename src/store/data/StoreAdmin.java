@@ -1,8 +1,10 @@
 package store.data;
 
+import audio.source.SourcePlaylist;
 import command.input.AdminCommand;
 import command.input.Command;
 import command.input.DoCommand;
+import fileio.input.SongInput;
 
 import java.util.List;
 
@@ -10,7 +12,8 @@ public class StoreAdmin extends StoreUsers {
     public StoreAdmin() {
     }
     @Override
-    public String addUser(Command command, List<StoreUsers> users) {
+    public String addUser(Command command) {
+        List<StoreUsers> users = StatisticsData.getInstance().getAllUsers();
         String username = command.getUsername();
         for (StoreUsers currUser : users) {
             if (currUser.getUsername().equals(username)) {
@@ -44,14 +47,14 @@ public class StoreAdmin extends StoreUsers {
         }
         return "The username " + username + " has been added successfully.";
     }
-    public String deleteUser(Command command, List<StoreUsers> users) {
+    public String deleteUser(Command command) {
         boolean exists = false;
         int index = 0;
         StoreUsers deletedUser = null;
-        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+        for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
             if (currUser.getUsername().equals(command.getUsername())) {
                 exists = true;
-                index = DoCommand.getAllUsers().indexOf(currUser);
+                index = StatisticsData.getInstance().getAllUsers().indexOf(currUser);
                 deletedUser = currUser;
                 break;
             }
@@ -59,24 +62,44 @@ public class StoreAdmin extends StoreUsers {
         if (!exists) {
             return "The username " + command.getUsername() + " doesn't exist.";
         }
-        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+        for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
             currUser.updateAudioSource(command);
             currUser.updateTimestamp(command.getTimestamp());
         }
-        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+        for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
             if (currUser.getUserAudioSource() != null) {
                 if (currUser.getUserAudioSource().getOwner() != null) {
                     if (currUser.getUserAudioSource().getOwner().equals(command.getUsername())) {
                         return command.getUsername() + " can't be deleted.";
 //                                + currUser.getUserAudioSource().getName() + " " + currUser.getUsername();
                     }
+                    if (currUser.getUserAudioSource().getAudioType().equals("playlist")) {
+                        Playlist currPlaylist = ((SourcePlaylist) currUser.getUserAudioSource()).getCurrentPlaylist();
+                        SongInput currentSong = ((SourcePlaylist) currUser.getUserAudioSource()).getSongFromPlaylist(command.getTimestamp());
+                        if (currentSong.getArtist().equals(command.getUsername())) {
+                            return command.getUsername() + " can't be deleted.";
+                        }
+                    }
+                }
+            }
+        }
+        for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
+            if (currUser.getNormal() != null) {
+                if (currUser.getPageType() != null) {
+                    if (currUser.getPageType().equals("ArtistPage")) {
+                        if (((StoreNormalUsers) currUser).getArtistHost().equals(deletedUser)) {
+                            return command.getUsername() + " can't be deleted.";
+                        }
+                    } else if (currUser.getPageType().equals("HostPage")) {
+                        if (((StoreNormalUsers) currUser).getArtistHost().equals(deletedUser)) {
+                            return command.getUsername() + " can't be deleted.";
+                        }
+                    }
                 }
             }
         }
         deletedUser.deleteAllFiles();
-//        DoCommand.getAllAlbums().removeIf(currAlbum -> currAlbum.getOwner().equals(command.getUsername()));
-//        DoCommand.getAllPlaylists().removeIf(currPlaylist -> currPlaylist.getOwner().equals(command.getUsername()));
-        DoCommand.getAllUsers().remove(index);
+        StatisticsData.getInstance().getAllUsers().remove(index);
         return command.getUsername() + " was successfully deleted.";
     }
 }

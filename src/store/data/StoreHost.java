@@ -117,7 +117,7 @@ public class StoreHost extends StoreUsers{
             }
         }
         if (podcast != null) {
-            for (StoreUsers currUser : DoCommand.getAllUsers()) {
+            for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
                 if (currUser.getNormal() != null) {
                     StoreNormalUsers normalUser = (StoreNormalUsers) currUser;
                     if (normalUser.getUserAudioSource() != null) {

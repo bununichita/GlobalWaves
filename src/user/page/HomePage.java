@@ -38,4 +38,8 @@ public class HomePage implements Page {
         string.append("]");
         return string.toString();
     }
+    @Override
+    public String getType(StoreNormalUsers user) {
+        return "HomePage";
+    }
 }

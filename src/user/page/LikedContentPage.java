@@ -31,4 +31,8 @@ public class LikedContentPage implements Page {
         string.append("]");
         return string.toString();
     }
+    @Override
+    public String getType(StoreNormalUsers user) {
+        return "LikedContent";
+    }
 }

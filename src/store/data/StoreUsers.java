@@ -1,17 +1,13 @@
 package store.data;
 
 import audio.source.SourceAudio;
-import audio.source.SourcePlaylist;
 import audio.source.SourcePodcast;
-import audio.source.SourceSong;
 import command.input.*;
-import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import output.Output;
 import output.SearchOutput;
 import output.Stats;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public abstract class StoreUsers {
@@ -152,8 +148,8 @@ public abstract class StoreUsers {
      * @return current user of type "storeUsers"
      */
     public StoreUsers findUserByName(final String localUsername) {
-
-        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
+        for (StoreUsers currUser : statisticsData.getAllUsers()) {
             if (currUser.getUsername().equals(localUsername)) {
                 return currUser;
             }
@@ -224,33 +220,27 @@ public abstract class StoreUsers {
     /**
      * Method that creates a new playlist for this user
      * @param command current command
-     * @param allPlaylist global playlist list
      * @return output message for createPlaylist command
      */
-    public String createPlaylist(final PlaylistCommand command,
-                                 final List<Playlist> allPlaylist) {
+    public String createPlaylist(final PlaylistCommand command) {
         return username + " is not a normal user.";
     }
 
     /**
-     *
      * @param command current command
-     * @param allPlaylist global playlist list
      * @return output message for addRemoveInPlaylist command
      */
-    public String addRemoveInPlaylist(final PlaylistCommand command,
-                                      final List<Playlist> allPlaylist) {
+    public String addRemoveInPlaylist(final PlaylistCommand command) {
         return username + " is not a normal user.";
     }
 
     /**
      * Method that updates the user likedSongs list of the player and global list of songs
+     *
      * @param command current command
-     * @param globalLikedSongs global list of songs
      * @return output message for Like command
      */
-    public String userLikeUnlike(final PlaylistCommand command,
-                                 final List<SongsByLikes> globalLikedSongs) {
+    public String userLikeUnlike(final PlaylistCommand command) {
         return username + " is not a normal user.";
     }
 
@@ -348,7 +338,7 @@ public abstract class StoreUsers {
     public String retUserNormalOnline() {
         return null;
     }
-    public String addUser(Command command, List<StoreUsers> users) {
+    public String addUser(Command command) {
     return null;
     }
     public String addAlbum(Command command) {
@@ -406,5 +396,8 @@ public abstract class StoreUsers {
     }
     public String changePage(Command command) {
         return this.username + " is trying to access a non-existent page.";
+    }
+    public String getPageType() {
+        return null;
     }
 }

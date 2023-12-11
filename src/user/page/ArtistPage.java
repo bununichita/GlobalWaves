@@ -35,4 +35,8 @@ public class ArtistPage implements Page {
         }
 
     }
+    @Override
+    public String getType(StoreNormalUsers user) {
+        return "ArtistPage";
+    }
 }

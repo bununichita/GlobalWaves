@@ -82,7 +82,7 @@ public class StoreArtist extends StoreUsers{
     }
     @Override
     public String addAlbum(Command command) {
-        List<Album> allAlbums = DoCommand.getAllAlbums();
+        List<Album> allAlbums = StatisticsData.getInstance().getAllAlbums();
         if (verifyValidAlbum(command) == null) {
             Album newAlbum = new Album();
             newAlbum.initAlbumFromCommand((UserCommand) command);
@@ -100,7 +100,7 @@ public class StoreArtist extends StoreUsers{
                 if (existingSong == 0) {
                     LibraryInput.getInstance().getSongs().add(currSong);
                     SongsByLikes newSongByLikes = new SongsByLikes(currSong);
-                    DoCommand.getAllSongsByLikes().add(newSongByLikes);
+                    StatisticsData.getInstance().getAllSongsByLikes().add(newSongByLikes);
                 }
             }
             return super.username + " has added new album successfully.";
@@ -109,7 +109,7 @@ public class StoreArtist extends StoreUsers{
         }
     }
     private boolean validDeleteAlbum(Album album) {
-        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+        for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
             if (!currUser.validAlbumDelete(album)) {
                 return false;
             }
@@ -131,9 +131,9 @@ public class StoreArtist extends StoreUsers{
                 artistAlbumList.remove(album);
                 for (SongInput currSong : album.getSongList()) {
                     LibraryInput.getInstance().getSongs().remove(currSong);
-                    for (SongsByLikes currSongByLikes : DoCommand.getAllSongsByLikes()) {
+                    for (SongsByLikes currSongByLikes : StatisticsData.getInstance().getAllSongsByLikes()) {
                         if (currSongByLikes.getSong().equals(currSong)) {
-                            DoCommand.getAllSongsByLikes().remove(currSongByLikes);
+                            StatisticsData.getInstance().getAllSongsByLikes().remove(currSongByLikes);
                         }
                     }
                 }
@@ -284,13 +284,13 @@ public class StoreArtist extends StoreUsers{
         for (Album currAlbum : artistAlbumList) {
             for (SongInput currSong : currAlbum.getSongList()) {
                 LibraryInput.getInstance().getSongs().remove(currSong);
-                for (StoreUsers currUser : DoCommand.getAllUsers()) {
+                for (StoreUsers currUser : StatisticsData.getInstance().getAllUsers()) {
                     if (currUser.getNormal() != null) {
                         currUser.getLikedSongs().remove(currSong);
                     }
                 }
             }
-            DoCommand.getAllAlbums().remove(currAlbum);
+            StatisticsData.getInstance().getAllAlbums().remove(currAlbum);
         }
     }
 }

@@ -8,6 +8,7 @@ import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import store.data.Album;
 import store.data.Playlist;
+import store.data.StatisticsData;
 import store.data.StoreUsers;
 
 import java.util.ArrayList;
@@ -165,10 +166,11 @@ public class SearchOutput extends Output {
      * Searches the playlist list based on filters
      * @param command type SearchCommand
      */
-    public void foundPlaylistName(final SearchCommand command, final List<Playlist> allPlaylist) {
+    public void foundPlaylistName(final SearchCommand command) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
         boolean validCandidate;
         int playlistsFound = 0;
-        for (Playlist currPlaylist : allPlaylist) {
+        for (Playlist currPlaylist : statisticsData.getAllPlaylists()) {
             if (currPlaylist.getVisibility().equals("public")) {
                 validCandidate = true;
                 if (command.getFilters().getName() != null) {
@@ -206,10 +208,11 @@ public class SearchOutput extends Output {
 
     }
     private void foundArtistName(final SearchCommand command) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
         boolean validCandidate;
         int artistsFound = 0;
 
-        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+        for (StoreUsers currUser : statisticsData.getAllUsers()) {
             validCandidate = true;
             if (command.getFilters().getName() != null) {
                 if (currUser.getArtist() == null) {
@@ -227,9 +230,10 @@ public class SearchOutput extends Output {
 
     }
     private void foundHostName(final SearchCommand command) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
         boolean validCandidate;
         int hostsFound = 0;
-        for (StoreUsers currUser : DoCommand.getAllUsers()) {
+        for (StoreUsers currUser : statisticsData.getAllUsers()) {
             validCandidate = true;
             if (command.getFilters().getName() != null) {
                 if (currUser.getHost() == null) {
@@ -246,9 +250,10 @@ public class SearchOutput extends Output {
         }
     }
     public void foundAlbumName(SearchCommand command) {
+        StatisticsData statisticsData = StatisticsData.getInstance();
         int albumsFound = 0;
 //        int debug = 0;
-        for (Album currAlbum : DoCommand.getAllAlbums()) {
+        for (Album currAlbum : statisticsData.getAllAlbums()) {
 
             boolean validCandidate = true;
             if (command.getFilters().getName() != null) {
@@ -280,13 +285,13 @@ public class SearchOutput extends Output {
     /**
      * Decides the search type
      * @param command of type SearchCommand
-     * @param allPlaylist global playlist list
      */
-    public void decideSearchType(final SearchCommand command, final List<Playlist> allPlaylist) {
+    public void decideSearchType(final SearchCommand command) {
+
         switch (command.getType()) {
             case "song" -> foundSongName(command);
             case "podcast" -> foundPodcastName(command);
-            case "playlist" -> foundPlaylistName(command, allPlaylist);
+            case "playlist" -> foundPlaylistName(command);
             case "artist" -> foundArtistName(command);
             case "album" -> foundAlbumName(command);
             case "host" -> foundHostName(command);

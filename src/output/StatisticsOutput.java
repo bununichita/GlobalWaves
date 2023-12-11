@@ -1,10 +1,7 @@
 package output;
 
 import command.input.Command;
-import store.data.Album;
-import store.data.Playlist;
-import store.data.SongsByLikes;
-import store.data.StoreUsers;
+import store.data.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -38,9 +35,9 @@ public class StatisticsOutput extends Output {
 
     /**
      * Sets the Statistic result
-     * @param allPlaylists global playlist list
      */
-    public void setPlaylistResult(final List<Playlist> allPlaylists) {
+    public void setPlaylistResult() {
+        List<Playlist> allPlaylists = StatisticsData.getInstance().getAllPlaylists();
         List<Playlist> sortedPlaylists = new ArrayList<>();
         sortedPlaylists.addAll(allPlaylists);
         Collections.sort(sortedPlaylists, Comparator.
@@ -59,9 +56,9 @@ public class StatisticsOutput extends Output {
     }
     /**
      * Sets the Statistic result
-     * @param allSongs global playlist list
      */
-    public void setSongResult(final List<SongsByLikes> allSongs) {
+    public void setSongResult() {
+        List<SongsByLikes> allSongs = StatisticsData.getInstance().getAllSongsByLikes();
         Collections.sort(allSongs, Comparator.comparingInt(SongsByLikes::getLikeCount).reversed());
         int index = 0;
         for (SongsByLikes currSong : allSongs) {
@@ -72,7 +69,8 @@ public class StatisticsOutput extends Output {
             index++;
         }
     }
-    public void setAlbumResult(final List<Album> allAlbums) {
+    public void setAlbumResult() {
+        List<Album> allAlbums = StatisticsData.getInstance().getAllAlbums();
         Collections.sort(allAlbums, Comparator.comparingInt(Album::getTotalLikes).reversed());
         int index = 0;
         for (Album currAlbum : allAlbums) {
@@ -84,7 +82,8 @@ public class StatisticsOutput extends Output {
         }
     }
 
-    public void setAllPlayersResult(final List<StoreUsers> allUsers) {
+    public void setAllPlayersResult() {
+        List<StoreUsers> allUsers = StatisticsData.getInstance().getAllUsers();
         for (StoreUsers currUser : allUsers) {
             if (currUser.getNormal() != null) {
                 localResult.add(currUser.getUsername());
