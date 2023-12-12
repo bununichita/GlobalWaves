@@ -89,12 +89,7 @@ public final class Main {
         System.out.println("new_test");
 
         ObjectMapper objectMapper1 = new ObjectMapper();
-//
-//
         String in = new String(CheckerConstants.TESTS_PATH);
-//        System.out.println(in.concat(filePathInput));
-//        String out = new String(CheckerConstants.OUT_FILE);
-////
         List<InitCommand> unparsedCommands =
                 objectMapper1.readValue(new File(in.concat(filePathInput)),
                         new TypeReference<List<InitCommand>>() { });
@@ -105,7 +100,6 @@ public final class Main {
         commands = parseCommand.getParsedCommands();
 
         InitUserList initUserList = new InitUserList();
-//        List<StoreUsers> users = initUserList.init(library.getUsers());
         StatisticsData statisticsData = StatisticsData.getInstance();
         statisticsData.setAllUsers(initUserList.init(library.getUsers()));
         SongsByLikes aux = new SongsByLikes();

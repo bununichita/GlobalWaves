@@ -85,10 +85,6 @@ public class UserCommand extends Command {
         return output;
     }
 
-//    public void setOutput() {
-//        this.output = (UserOutput) outputInstance;
-//    }
-
     public void setOutputMessage(String message) {
         output.setMessage(message);
     }

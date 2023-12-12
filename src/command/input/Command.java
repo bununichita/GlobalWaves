@@ -18,10 +18,6 @@ public abstract class Command {
     public Command() {
     }
 
-//    public Command(InitCommand source) {
-//
-//    }
-
     /**
      *
      * @return command name

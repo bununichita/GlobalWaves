@@ -71,14 +71,9 @@ public class SourceSong extends SourceAudio {
         if (!super.isPaused) {
             int lastTimestamp = super.lastTimestamp;
             int addTime;
-//            if (super.isPaused == false) {
-                addTime = timestamp - lastTimestamp;
-//            }
+            addTime = timestamp - lastTimestamp;
             int remainingTime = currentSong.getDuration() - super.totalPlayed - addTime;
-//            int difFromLastTimestamp = timestamp - super.lastTimestamp;
             if (remainingTime > 0) {
-//                super.totalPlayed += addTime;
-//                return currentSong.getDuration() - super.totalPlayed;
                 return remainingTime;
             } else {
                 super.isPaused = true;

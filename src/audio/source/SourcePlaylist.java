@@ -179,21 +179,15 @@ public class SourcePlaylist extends SourceAudio {
         if (!super.isPaused) {
             int lastTimestamp = super.lastTimestamp;
             int addTime;
-//            if (super.isPaused == false) {
             addTime = timestamp - lastTimestamp;
-//            }
             int remainingTime = currentPlaylist.getDuration() - super.totalPlayed - addTime;
-//            int difFromLastTimestamp = timestamp - super.lastTimestamp;
             if (remainingTime > 0) {
-//                super.totalPlayed += addTime;
-//                return currentSong.getDuration() - super.totalPlayed;
                 return remainingTime;
             } else {
                 super.isPaused = true;
                 super.totalPlayed = currentPlaylist.getDuration();
                 return 0;
             }
-
         }
         return currentPlaylist.getDuration() - super.totalPlayed;
     }
@@ -275,7 +269,6 @@ public class SourcePlaylist extends SourceAudio {
      * @return the total played time after shuffle command
      */
     public int getShuffledPlayedTime() {
-//        aflu cat timp a trecut din song-ul curent
         int totalPlayedTime = super.totalPlayed;
         SongInput currentSong = null;
         for (SongInput currSong : unshuffledPlaylist.getSongList()) {

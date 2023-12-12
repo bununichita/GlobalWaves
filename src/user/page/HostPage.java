@@ -30,14 +30,9 @@ public class HostPage implements Page {
                     string.append(" - ");
                     string.append(currEpisode.getDescription());
                 }
-//                string.append("],");
                 num++;
-//                if (num == 5) {
-//                    break;
-//                }
             }
             string.append("]\n]\n\nAnnouncements:\n\t[");
-//            num = 0;
             string.append(host.getPrintAnnouncement());
             return string.toString();
         } else {

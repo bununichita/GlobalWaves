@@ -15,11 +15,6 @@ public class DoCommand {
 
     private static void doSearch(final StoreUsers currUser, final Command currCommand,
                                  final List<Output> outputList) {
-//        StatisticsData statisticsData = StatisticsData.getInstance();
-//        if (currCommand.getTimestamp() == 1021) {
-//            List<Playlist> debug = statisticsData.getAllPlaylists();
-//            int ksjcndkf = 777;
-//        }
         SearchOutput newSearchNode = new SearchOutput();
         newSearchNode.initSearchFromCommand((SearchCommand) currCommand);
         if (currUser.isStatusOffline()) {
@@ -51,9 +46,6 @@ public class DoCommand {
         newSelectNode.setCommand(currCommand.getCommand());
         newSelectNode.setUser((currCommand.getUsername()));
         newSelectNode.setTimestamp(currCommand.getTimestamp());
-//        if (currUser == null) {
-//            return;
-//        }
         newSelectNode.doSelect((StoreNormalUsers) currUser, ((SelectCommand) currCommand).getItemNumber() - 1);
         outputList.add(newSelectNode);
         currUser.setUserLastOutput(newSelectNode);
@@ -63,9 +55,6 @@ public class DoCommand {
 
     private static void doLoad(final Command currCommand, final StoreUsers currUser,
                         final List<Output> outputList) {
-        if (currCommand.getTimestamp() == 740) {
-            int ksjcndkf = 777;
-        }
         LoadOutput newLoadNode = new LoadOutput();
         newLoadNode.initLoadFromCommand((LoadCommand) currCommand);
         String message = currUser.userLoad((LoadCommand) currCommand);
@@ -80,11 +69,6 @@ public class DoCommand {
 
     private static void doStatus(final Command currCommand, final StoreUsers currUser,
                           final List<Output> outputList) {
-//        StatisticsData statisticsData = StatisticsData.getInstance();
-//        if (currCommand.getTimestamp() == 446) {
-//            List<Playlist> debug = statisticsData.getAllPlaylists();
-//            int ksjcndkf = 777;
-//        }
         currUser.updateAudioSource(currCommand);
         StatusOutput newStatusNode = new StatusOutput();
         newStatusNode.initStatusFromCommand(currCommand);
@@ -147,16 +131,11 @@ public class DoCommand {
     public static void makeAllCommands(final List<Command> commands, final List<Output> outputList) {
 
         LibraryInput library = LibraryInput.getInstance();
-//        List<SongsByLikes> SongsByLikes = new ArrayList<>();
 
         List<Output> ignoredOuts = new ArrayList<>();
-//        List<Album> debug = DoCommand.getAllAlbums();
         for (Command currCommand : commands) {
             StoreUsers currUser = new StoreNormalUsers();
             currUser = currUser.findUserByName(currCommand.getUsername());
-            if (currCommand.getCommand().equals("getOnlineUsers")) {
-                int hello = 777;
-            }
             switch (currCommand.getCommand()) {
                 case "search":
                     doSearch(currUser, currCommand, outputList);
@@ -328,19 +307,11 @@ public class DoCommand {
                     outputList.add(currCommand.getOutput());
                     break;
                 case "deleteUser":
-
-                    if (currCommand.getTimestamp() == 620) {
-                        int csdc = 777;
-                    }
-
                     StoreAdmin adminDelete = new StoreAdmin();
                     currCommand.setOutputMessage(adminDelete.deleteUser(currCommand));
                     outputList.add(currCommand.getOutput());
                     break;
                 case "addAlbum":
-//                    if (currCommand.getTimestamp() == 560) {
-//                        int csdc = 777;
-//                    }
                     if (currUser != null) {
                         currCommand.setOutputMessage(currUser.addAlbum(currCommand));
                     } else {
@@ -384,9 +355,6 @@ public class DoCommand {
                     outputList.add(currCommand.getOutput());
                     break;
                 case "printCurrentPage":
-                    if (currCommand.getTimestamp() == 3275) {
-                        int csdadcc = 777;
-                    }
                     if (currUser.isStatusOffline()) {
                         currCommand.setOutputMessage(currUser.getUsername() + " is offline.");
                     } else {
@@ -419,9 +387,6 @@ public class DoCommand {
                     outputList.add(currCommand.getOutput());
                     break;
                 case "addMerch":
-//                    if (currCommand.getTimestamp() == 115) {
-//                        int scds = 777;
-//                    }
                     if (currUser != null) {
                         currCommand.setOutputMessage(currUser.addMerch(currCommand));
                     } else {

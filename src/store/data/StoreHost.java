@@ -165,7 +165,6 @@ public class StoreHost extends StoreUsers{
         return this.username + " has no announcement with the given name.";
     }
     public String getPrintAnnouncement() {
-//        Announcement1:\n\tPrimul anunt adaugat!\n]
         StringBuilder string = new StringBuilder();
         for (Announcement currAnnouncement : announcementList) {
             if (announcementList.indexOf(currAnnouncement) != 0) {

@@ -252,7 +252,6 @@ public class SearchOutput extends Output {
     public void foundAlbumName(SearchCommand command) {
         StatisticsData statisticsData = StatisticsData.getInstance();
         int albumsFound = 0;
-//        int debug = 0;
         for (Album currAlbum : statisticsData.getAllAlbums()) {
 
             boolean validCandidate = true;
@@ -278,7 +277,6 @@ public class SearchOutput extends Output {
             if (albumsFound == maxNumber) {
                 return;
             }
-//            debug++;
         }
     }
 

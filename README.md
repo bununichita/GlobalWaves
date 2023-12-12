@@ -1,20 +1,34 @@
+# Copyright Bunu Nichita Adrian 323CA 2023
+
 # Proiect GlobalWaves  - Etapa 2
 
-<div align="center"><img src="https://tenor.com/view/listening-to-music-spongebob-gif-8009182.gif" width="300px"></div>
+In etapa anterioara toate functiile legate de user erau implementate
+in clasa StoreUsers (public class). La aparitia noilor tipuri de user,
+clasa "StoreUsers" a devenit clasa abstracta, fiind extinsa de clasele 
+"StoreNormalUsers", "StoreArtists", "StoreHosts", "StoreAdmin".
+Desi clasa "StoreAdmin" putea fi implementata ca o  clasa de sine
+statatoare, am ales sa extinda "StoreUsers" pentru simplitate si
+intelegere mai usoara a codului.
 
-#### Assignment Link: [https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1](https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1)
+A fost adaugata "SourceAlbum", care extinde "SourceAudio", si are
+functionalitati similare cu "SourcePlaylist".
 
+Cerintele legate de pagini au fost implementate cu ajutorul interfetei
+"Page", care este implementata de cele 4 tipuri de pagini. Am ales sa
+calculez valorile printate de fiecare pagina pe loc, in defavoarea
+retinerii unei pagini de catre user, care ar fi trebuit actualizata
+la fiecare comanda ce modifica valori afisate de ""printCurrentPage()".
 
-## Skel Structure
+Am refactorizat codul cu ajutorul clasei singleton "StatisticsData", ce
+retine informatii necesare realizarii comenzilor de tip "Statistici
+Generale".
 
-* src/
-  * checker/ - checker files
-  * fileio/ - contains classes used to read data from the json files
-  * main/
-      * Main - the Main class runs the checker on your implementation. Add the entry point to your implementation in it. Run Main to test your implementation from the IDE or from command line.
-      * Test - run the main method from Test class with the name of the input file from the command line and the result will be written
-        to the out.txt file. Thus, you can compare this result with ref.
-* input/ - contains the tests and library in JSON format
-* ref/ - contains all reference output for the tests in JSON format
+Am eliminat toate comentariile de tip cod comentat, si toate clasele
+si pachetele goale.
 
-<div align="center"><img src="https://tenor.com/view/homework-time-gif-24854817.gif" width="500px"></div>
+Din cauza unei restante din anul 1 nu am putut duce la bun sfarsit
+aceasta etapa, dar o sa fac acest lucru dupa deadline deoarece as
+vrea sa ma folosesc de scheletul meu si in etapa 3. M-ar ajuta foarte
+mult un feedback referitor la eventuale restructurari ce mi-ar fi de
+folos in etapa 3. Multumesc!
+

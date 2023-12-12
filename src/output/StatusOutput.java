@@ -3,7 +3,6 @@ package output;
 import command.input.Command;
 
 public class StatusOutput extends Output {
-//
     private Stats stats;
     public StatusOutput() {
     }

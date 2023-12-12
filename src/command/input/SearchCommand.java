@@ -2,10 +2,6 @@ package command.input;
 
 public class SearchCommand extends Command {
     private String type;
-//    private Filter filters;
-
-    // Getters and setters...
-
     private Filter filters;
 
     /**

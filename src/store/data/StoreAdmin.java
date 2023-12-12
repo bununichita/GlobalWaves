@@ -71,7 +71,6 @@ public class StoreAdmin extends StoreUsers {
                 if (currUser.getUserAudioSource().getOwner() != null) {
                     if (currUser.getUserAudioSource().getOwner().equals(command.getUsername())) {
                         return command.getUsername() + " can't be deleted.";
-//                                + currUser.getUserAudioSource().getName() + " " + currUser.getUsername();
                     }
                     if (currUser.getUserAudioSource().getAudioType().equals("playlist")) {
                         Playlist currPlaylist = ((SourcePlaylist) currUser.getUserAudioSource()).getCurrentPlaylist();

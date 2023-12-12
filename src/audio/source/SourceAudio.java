@@ -11,9 +11,21 @@ public class SourceAudio {
      */
     @Getter
     protected String audioType;
-//    protected boolean isLiked;
     protected boolean isPaused;
+    /**
+     * -- GETTER --
+     *
+     * @return audioSource timestamp of the last interaction
+     */
+    @Getter
     protected int lastTimestamp;
+    /**
+     * -- GETTER --
+     *  song: number of seconds played from the song
+     *  player: sum of the totalPlayed for every song in playlist
+     *  podcast: sum of the totalPlayed for every episode in podcast
+     */
+    @Getter
     protected int totalPlayed;
 
     /**
@@ -43,28 +55,10 @@ public class SourceAudio {
 
     /**
      *
-     * @return audioSource timestamp of the last interaction
-     */
-    public int getLastTimestamp() {
-        return lastTimestamp;
-    }
-
-    /**
-     *
      * @param lastTimestamp audioSource timestamp of the last interaction
      */
     public void setLastTimestamp(final int lastTimestamp) {
         this.lastTimestamp = lastTimestamp;
-    }
-
-    /**
-     * song: number of seconds played from the song
-     * player: sum of the totalPlayed for every song in playlist
-     * podcast: sum of the totalPlayed for every episode in podcast
-     * @return
-     */
-    public int getTotalPlayed() {
-        return totalPlayed;
     }
 
     /**
@@ -102,14 +96,10 @@ public class SourceAudio {
     public String changePlayPause(final Command command) {
         if (this.isPaused) {
             isPaused = false;
-//            totalPausedTime += command.getTimestamp() - lastPlayPauseTimestamp;
-
             return "Playback resumed successfully.";
         } else {
             this.isPaused = true;
             totalPlayed += command.getTimestamp() - lastTimestamp;
-
-
             return "Playback paused successfully.";
         }
     }

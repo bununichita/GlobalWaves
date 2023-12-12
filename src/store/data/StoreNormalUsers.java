@@ -158,21 +158,6 @@ public class StoreNormalUsers extends StoreUsers{
     }
 
     /**
-     * Method searches the StoreUsers list to find the current user
-     * @param localUsername name of the user
-     * @param usersList list of users
-     * @return current user of type "storeUsers"
-     */
-//    public StoreNormalUsers findUserByName(final String localUsername, final List<StoreNormalUsers> usersList) {
-//        for (StoreNormalUsers currUser : usersList) {
-//            if (currUser.getUsername().equals(localUsername)) {
-//                return currUser;
-//            }
-//        }
-//        return null;
-//    }
-
-    /**
      * Method updates the current audio source to this timestamp
      * @param command current command
      */
@@ -788,6 +773,37 @@ public class StoreNormalUsers extends StoreUsers{
                 } else {
                     return "Please load a source before skipping to the next track.";
                 }
+            } else if (userAudioSource.getAudioType().equals("album")) {
+                SourceAlbum albumSource = (SourceAlbum) userAudioSource;
+                if (albumSource.getAlbumSize() - albumSource.getCurrentSongIndex() >= 2) {
+                    String currSongName = albumSource.getCurrentSong();
+                    int remainingCurrSongTime = albumSource.getSongRemainingTime(currSongName);
+                    albumSource.setTotalPlayed(albumSource.getTotalPlayed() + remainingCurrSongTime);
+                    String newCurrSongName = albumSource.getCurrentSong();
+                    albumSource.setPaused(false);
+                    if (albumSource.getRepeat().equals("Repeat Current Song")) {
+                        return "Skipped to next track successfully. The current track is "
+                                + currSongName + ".";
+                    }
+                    return "Skipped to next track successfully. The current track is "
+                            + newCurrSongName + ".";
+                } else {
+                    String currSongName;
+                    if (albumSource.getRepeat().equals("Repeat All")) {
+                        albumSource.setTotalPlayed(0);
+                        currSongName = albumSource.getCurrentSong();
+                        return "Skipped to next track successfully. The current track is "
+                                + currSongName + ".";
+                    } else if (albumSource.getRepeat().equals("Repeat Current Song")) {
+                        currSongName = albumSource.getCurrentSong();
+                        int newTotalPlayed = albumSource.getStartRepeatedSong();
+                        albumSource.setTotalPlayed(newTotalPlayed);
+                        return "Skipped to next track successfully. The current track is "
+                                + currSongName + ".";
+                    }
+                    albumSource.setTotalPlayed(albumSource.getCurrentAlbum().getDuration());
+                    return "Please load a source before skipping to the next track.";
+                }
             }
         } else {
             return "Please load a source before skipping to the next track.";
@@ -995,11 +1011,10 @@ public class StoreNormalUsers extends StoreUsers{
         updateTimestamp(command.getTimestamp());
         if (statusOffline) {
 
-//            if (userAudioSource != null) {
-//                if (!userAudioSource.isPaused()) {
-//
-//                }
-//            }
+            if (userAudioSource != null) {
+                userPlayPause(command);
+            }
+
             statusOffline = false;
         } else {
             if (userAudioSource != null) {

@@ -3,7 +3,6 @@ package audio.source;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import fileio.input.SongInput;
 import store.data.Album;
-//import store.data.Album;
 
 import java.util.Collections;
 import java.util.Random;
@@ -165,7 +164,6 @@ public class SourceAlbum extends SourceAudio {
      * @return the total played time after shuffle command
      */
     public int getShuffledPlayedTime() {
-//        aflu cat timp a trecut din song-ul curent
         int totalPlayedTime = super.totalPlayed;
         SongInput currentSong = null;
         for (SongInput currSong : unshuffledAlbum.getSongList()) {

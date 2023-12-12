@@ -147,11 +147,6 @@ public class StoreArtist extends StoreUsers{
     }
     @Override
     public List<Album> getAlbums() {
-//        List<String> albumNames = new ArrayList<>();
-//        for (Album currAlbum : artistAlbumList) {
-//            albumNames.add(currAlbum.getName());
-//        }
-//        return  albumNames;
         List<Album> currAlbums = new ArrayList<>(artistAlbumList);
         return currAlbums;
     }
